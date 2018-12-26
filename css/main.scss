@@ -1,0 +1,17 @@
+//Resoluciones de pantalla
+$moviles : 480px;//768px / 320px
+$tabletas : 992px;//992px
+$pcs : 1200px;
+
+@import "base/_fuentes";
+@import "base/_colores";
+@import "base/_reset";
+@import "base/_base";
+@import "module/_module";
+@import "font-awesome-4.7.0/scss/font-awesome";
+//@import "fontawesome-free-5.6.3-web/scss/fontawesome";
+@import "layout/_inicio";
+@import "layout/_menu";
+@import "layout/_scrolltop";
+//@import "font-awesome-4.7.0/scss/font-awesome";
+//https://www.youtube.com/watch?v=jtzb2FNyzZY

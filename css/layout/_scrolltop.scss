@@ -1,0 +1,18 @@
+.scrolltop{
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: $Colorprincipal;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  transition : all 3s ease;
+
+  & span{
+  	margin-top: 7px;
+  }
+}

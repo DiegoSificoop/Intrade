@@ -1,0 +1,33 @@
+.inicio{
+	.inicio-cont{
+		height : 100vh;
+		background-image : url("../img/main-page.jpg");
+		background-attachment : fixed;
+		background-position : center center;
+		background-size : cover;
+		background-repeat : no-repeat;
+	}
+
+	&-imgtitulo{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		height: 100%;
+
+		&_size{
+			width: 38%;
+			margin-left: 10vw;
+		}
+	}
+}
+
+@media (max-width : $moviles){
+	.inicio{
+		&-imgtitulo{
+			&_size{
+				width: 45%;
+				margin-left: 7vw;
+			}
+		}
+	}
+}
