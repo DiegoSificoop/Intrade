@@ -109,6 +109,59 @@
 
 			}
 		}
+
+		&-nuestro{
+			display: flex;
+			flex-direction: row;
+			margin-top: 80px;
+
+			&_info{
+				display: flex;
+				flex-direction: column;
+				width: 60%;
+				padding: 90px;
+
+				&_titulo{
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-start;
+					color: $Colorprincipal;
+					margin-left: 150px;
+					margin-top: 60px;
+
+					&_sub{
+						/*display: flex;
+						justify-content: space-between;
+						width: 60%;*/
+						color: $Colorprincipal;
+					}
+
+					&_sub{
+						font-size: 3.1vw;
+					}
+				}
+
+				&_titulo span{
+					font-size: 3.1vw;
+					margin-bottom: 8px;
+				}
+
+				&_texto{
+					margin-top: 70px;
+					margin-left: 150px;
+				}
+			}
+
+			&_galeria{
+				display : flex;
+				align-items: center;
+				width: 40%;
+				border-top: 6px solid $Colorcontorno;
+				border-left: 6px solid $Colorcontorno;
+				border-bottom: 6px solid $Colorcontorno;
+				border-radius: 15px 0px 0px 15px;
+			}
+		}
 	}
 }
 
@@ -216,6 +269,63 @@
 
 				}
 			}
+
+			&-nuestro{
+				display: flex;
+				flex-direction: row;
+				margin-top: 80px;
+
+				&_info{
+					display: flex;
+					flex-direction: column;
+					width: 60%;
+					padding: 60px;
+
+					&_titulo{
+						display: flex;
+						flex-direction: column;
+						justify-content: flex-start;
+						color: $Colorprincipal;
+						margin-left: 0px;
+						margin-top: 60px;
+
+						&_sub{
+							/*display: flex;
+							justify-content: space-between;
+							width: 60%;*/
+							color: $Colorprincipal;
+						}
+
+						&_sub{
+							font-size: 3.1vw;
+						}
+					}
+
+					&_titulo span{
+						font-size: $tamanotitulores;
+						margin-bottom: 8px;
+					}
+
+					&_texto{
+						margin-top: 70px;
+						margin-left: 0px;
+					}
+
+					&_texto p{
+						font-size: $tamanoparrafores;
+					}
+				}
+
+				&_galeria{
+					display : flex;
+					align-items: center;
+					width: 40%;
+					border-top: 6px solid $Colorcontorno;
+					border-left: 6px solid $Colorcontorno;
+					border-bottom: 6px solid $Colorcontorno;
+					border-radius: 15px 0px 0px 15px;
+				}
+			}
 		}
 	}
 }
@@ -273,6 +383,56 @@
 						//justify-content: space-between;
 						color: white;
 					}
+				}
+			}
+
+			&-nuestro{
+				display: flex;
+				flex-direction: column;
+				margin-top: 40px;
+
+				&_info{
+					display: flex;
+					flex-direction: column;
+					width: 100%;
+					padding: 20px;
+
+					&_titulo{
+						display: flex;
+						flex-direction: column;
+						justify-content: flex-start;
+						color: $Colorprincipal;
+						margin-left: 0px;
+						margin-top: 0px;
+
+						&_sub{
+							color: $Colorprincipal;
+						}
+
+						&_sub{
+							font-size: 3.1vw;
+						}
+					}
+
+					&_titulo span{
+						font-size: $tamanotitulores;
+						margin-bottom: 8px;
+					}
+
+					&_texto{
+						margin-top: 40px;
+						margin-left: 0px;
+					}
+
+					&_texto p{
+						font-size: $tamanoparrafores;
+					}
+				}
+
+				&_galeria{
+					display : flex;
+					align-items: center;
+					width: 100%;
 				}
 			}
 		}
