@@ -3745,7 +3745,7 @@ h6 {
   flex-direction: column;
   justify-content: flex-start;
   color: #b96400;
-  margin-left: 150px;
+  margin-left: 130px;
   margin-top: 60px;
 }
 .quienes-cont-nuestro_info_titulo_sub {
@@ -3763,7 +3763,7 @@ h6 {
 }
 .quienes-cont-nuestro_info_texto {
   margin-top: 70px;
-  margin-left: 150px;
+  margin-left: 130px;
 }
 .quienes-cont-nuestro_galeria {
   display: flex;
