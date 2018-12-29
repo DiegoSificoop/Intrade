@@ -1,0 +1,290 @@
+.servicios{
+	background-color: $Colorprincipal;
+
+	&-cont{
+		display: flex; 
+		flex-direction: column;
+		margin-bottom: 10px;
+
+		&_titulo{
+			display: flex;
+			flex-direction: column; 
+			color: white;
+			margin-left: 200px;
+			margin-top: 100px;
+
+			&_letra{
+				font-size: 3.1vw;
+			}
+
+			&_sub{
+				display: flex;
+				flex-direction: row;
+				color: white;
+				margin-top: 18px;
+
+				&_letra{
+					margin-right: 4vw;
+					font-size: 3.5vw; 
+					font-weight: bold;
+				}
+			}
+		}
+
+		&_contenido{
+			display : flex;
+			flex-direction: row;
+
+			&_imagen{
+				margin-top: 70px;
+				width: 60%;
+			}
+
+			&_imagen img{
+				width: 90%;
+			}
+
+			&_cont{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 40%;
+				padding: 20px;
+				margin: 20px;
+				
+				&_info{
+					width: 100%;
+					background-color: $Colorprincipaldif;
+					padding: 40px;
+
+					&_cabecera{
+						display: flex; 
+						flex-direction: column;
+						align-items: center;
+						color: $Coloropcionesmenu;
+						margin-top: 40px;
+					}
+
+					&_cabecera img{
+						margin-bottom: 14px;
+						width: 4vw;
+					}
+
+					&_cabecera span{
+						padding: 5px;
+						font-size: 1.6vw;
+						font-weight: bold;
+					}
+
+					&_puntos{
+						display :flex;
+						flex-direction: column;
+						padding: 5px;
+						margin-top: 25px;
+
+						&_opcion{
+							display: flex;
+							align-items: center;
+							color: $Coloropcionesmenu;
+							padding: 10px;
+						}
+
+						&_opcion i{
+							margin-right: .3vw;
+							font-size: .7vw;
+						}
+
+						&_opcion span{
+							font-family: 'PT Sans Narrow', sans-serif;
+							font-size: 1.8vw;
+						}
+					}
+				}
+
+				&_triangulo{
+					margin: 0;
+					color: $Colorprincipaldif;
+					line-height: 0em;
+					font-size: 5.5vw;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $tabletas){
+	.servicios{
+		background-color: $Colorprincipal;
+
+		&-cont{
+			display: flex; 
+			flex-direction: column;
+			margin-bottom: 10px;
+
+			&_titulo{
+				display: flex;
+				flex-direction: column; 
+				color: white;
+				margin-left: 50px;//
+				margin-top: 100px;
+
+				&_letra{
+					font-size: $tamanotitulores;//
+				}
+
+				&_sub{
+					display: flex;
+					flex-direction: row;
+					color: white;
+					margin-top: 18px;
+
+					&_letra{
+						margin-right: 4vw;
+						font-size: $tamanotitulores;//
+						font-weight: bold;
+					}
+				}
+			}
+
+			&_contenido{
+				display : flex;
+				flex-direction: row;
+
+				&_imagen{
+					margin-top: 70px;
+					width: 60%;
+				}
+
+				&_imagen img{
+					width: 90%;
+				}
+
+				&_cont{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					width: 40%;
+					padding: 20px;
+					margin: 20px;
+					
+					&_info{
+						width: 100%;
+						background-color: $Colorprincipaldif;
+						padding: 40px;
+
+						&_cabecera{
+							display: flex; 
+							flex-direction: column;
+							align-items: center;
+							color: $Coloropcionesmenu;
+							margin-top: 40px;
+						}
+
+						&_cabecera img{
+							margin-bottom: 14px;
+							width: 4vw;
+						}
+
+						&_cabecera span{
+							padding: 5px;
+							font-size: $serviciostitulo;//
+							font-weight: bold;
+						}
+
+						&_puntos{
+							display :flex;
+							flex-direction: column;
+							padding: 5px;
+							margin-top: 25px;
+
+							&_opcion{
+								display: flex;
+								align-items: center;
+								color: $Coloropcionesmenu;
+								padding: 10px;
+							}
+
+							&_opcion i{
+								margin-right: .3vw;
+								font-size: .7vw;
+							}
+
+							&_opcion span{
+								font-family: 'PT Sans Narrow', sans-serif;
+								font-size: $serviciosopcion;//
+							}
+						}
+					}
+
+					&_triangulo{
+						margin: 0;
+						color: $Colorprincipaldif;
+						line-height: 0em;
+						font-size: 5.5vw;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $premoviles){
+	.servicios{
+
+		&-cont{
+
+			&_titulo{
+				display: flex;
+				flex-direction: column; 
+				color: white;
+				margin-left: 25px;//
+				margin-top: 50px;//
+			}
+
+			&_contenido{
+				display : flex;
+				flex-direction: column-reverse;//
+
+				&_imagen{
+					margin-top: 10px;//
+					width: 100%;//
+				}
+
+				&_imagen img{
+					width: 100%;//
+				}
+
+				&_cont{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					width: 100%;//
+					padding: 20px;
+					margin: 0px;//
+					
+					&_info{
+						width: 100%;
+						background-color: $Colorprincipaldif;
+						padding: 40px;
+
+						&_cabecera span{
+							padding: 5px;
+							font-size: $serviciostitulo;//
+							font-weight: bold;
+						}
+
+						&_puntos{
+							&_opcion span{
+								font-size: $serviciosopcion;//
+							}
+						}
+					}
+
+					&_triangulo{
+						font-size: 50px;//
+					}
+				}
+			}
+		}
+	}
+}
