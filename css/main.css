@@ -4223,12 +4223,33 @@ h6 {
   .servicios-cont_contenido_cont_info {
     width: 100%;
     background-color: #c9842f;
-    padding: 40px;
+    padding: 20px;
+  }
+  .servicios-cont_contenido_cont_info_cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+  }
+  .servicios-cont_contenido_cont_info_cabecera img {
+    margin-bottom: 14px;
+    width: 40px;
   }
   .servicios-cont_contenido_cont_info_cabecera span {
     padding: 5px;
     font-size: 20px;
     font-weight: bold;
+  }
+  .servicios-cont_contenido_cont_info_puntos_opcion {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+  }
+  .servicios-cont_contenido_cont_info_puntos_opcion i {
+    margin-right: 0.3vw;
+    font-size: 10px;
   }
   .servicios-cont_contenido_cont_info_puntos_opcion span {
     font-size: 20px;

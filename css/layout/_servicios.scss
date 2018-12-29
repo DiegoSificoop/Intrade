@@ -265,7 +265,20 @@
 					&_info{
 						width: 100%;
 						background-color: $Colorprincipaldif;
-						padding: 40px;
+						padding: 20px;
+
+						&_cabecera{
+							display: flex; 
+							flex-direction: column;
+							align-items: center;
+							color: $Coloropcionesmenu;
+							margin-top: 40px;
+						}
+
+						&_cabecera img{
+							margin-bottom: 14px;
+							width: 40px;
+						}
 
 						&_cabecera span{
 							padding: 5px;
@@ -274,6 +287,19 @@
 						}
 
 						&_puntos{
+
+							&_opcion{
+								display: flex;
+								align-items: center;
+								color: $Coloropcionesmenu;
+								padding: 10px;
+							}
+
+							&_opcion i{
+								margin-right: .3vw;
+								font-size: 10px;//
+							}
+
 							&_opcion span{
 								font-size: $serviciosopcion;//
 							}
