@@ -1,0 +1,406 @@
+.asesoria{
+	background-color: $Colorbgasesoria;
+
+	&-cont{
+		display: flex;
+		flex-direction: column;
+
+		&-encabezado{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-top: 80px;
+
+			&_titulo{
+				display: flex;
+				justify-content: center;
+				margin-bottom: 35px;
+			}
+
+			&_titulo span{
+				font-size: 4vw;
+				color: $Colorprincipal;
+			}
+
+			&_texto{
+				text-align: justify;
+				padding-left: 190px;
+				padding-right: 190px;
+			}
+		}
+
+		&-tabla{
+			display : flex;
+			flex-direction: column;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 30px;
+
+			&_tablas{
+				display : flex;
+				flex-direction: row;
+
+				&_izquierda{
+					display :flex;
+					flex-direction: row;
+					width: 60%;
+
+					&_izquierda{
+						display: flex;
+						flex-direction: column;
+						width: 50%;
+						margin-left: 2px;
+
+						&_encabezado{
+							background-color: $Colorprincipal;
+							color: white;
+							text-align: center;
+							padding: 18px;
+						}
+
+						&_encabezado2{
+							background-color: $Colorprincipaldif;
+							color: white;
+							text-align: center;
+							padding: 18px;
+						}
+
+						&_encabezado2 span{
+							font-size: 2.2vw;
+						}
+
+						&_encabezado span{
+							font-size: 2.2vw;
+						}
+
+						&_puntos{
+							display : flex;
+							flex-direction: column;
+							padding: 5px;
+							margin-top: 5px;
+							background-color: $Coloropcionesmenu;
+							height: 100%;
+
+							&_opcion{
+								display: flex;
+								align-items: center;
+								padding: 3px;
+								margin-bottom: 20px;
+								margin-left: 10px;
+							}
+
+							&_opcion i{
+								margin-right: .3vw;
+								font-size: .6vw;
+							}
+
+							&_opcion span{
+								font-size: 1.3vw;
+							}
+						}
+					}
+				}
+
+				&_derecha{
+					display: flex;
+					flex-direction: column;
+					width: 40%;
+					margin-left: 2px;
+
+					&_encabezado{
+						background-color: $Colorprincipal;
+						color: white;
+						text-align: center;
+						padding: 18px;
+					}
+
+					&_encabezado span{
+						font-size: 2.2vw;
+					}
+
+					&_puntos{
+						display : flex;
+						flex-direction: column;
+						padding: 5px;
+						margin-top: 5px;
+						background-color: $Coloropcionesmenu;
+
+						&_opcion{
+							display: flex;
+							align-items: center;
+							padding: 3px;
+							margin-bottom: 20px;
+							margin-left: 10px;
+						}
+
+						&_opcion i{
+							margin-right: .3vw;
+							font-size: .6vw;
+						}
+
+						&_opcion span{
+							font-size: 1.3vw;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $tabletas){
+	.asesoria{
+		&-cont{
+			display: flex;
+			flex-direction: column;
+
+			&-encabezado{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				margin-top: 80px;
+
+				&_titulo{
+					display: flex;
+					justify-content: center;
+					margin-bottom: 35px;
+				}
+
+				&_titulo span{
+					font-size: $tamanotitulores;//
+					color: $Colorprincipal;
+				}
+
+				&_texto{
+					text-align: left;//
+					padding: 30px;//
+					padding-left: 30px;//
+					padding-right: 30px;//
+				}
+
+				&_texto p{
+					font-size: $tamanoparrafores;//
+				}
+			}
+
+			&-tabla{
+				display : flex;
+				flex-direction: column;
+				padding-left: 30px;
+				padding-right: 30px;
+				padding-top: 30px;
+
+				&_tablas{
+					display : flex;
+					flex-direction: row;
+
+					&_izquierda{
+						display :flex;
+						flex-direction: row;
+						width: 60%;
+
+						&_izquierda{
+							display: flex;
+							flex-direction: column;
+							width: 50%;
+							margin-left: 2px;
+
+							&_encabezado{
+								background-color: $Colorprincipal;
+								color: white;
+								text-align: center;
+								padding: 18px;
+							}
+
+							&_encabezado2{
+								background-color: $Colorprincipaldif;
+								color: white;
+								text-align: center;
+								padding: 18px;
+							}
+
+							&_encabezado2 span{
+								font-size: $asesoriaenctabla;//
+							}
+
+							&_encabezado span{
+								font-size: $asesoriaenctabla;//
+							}
+
+							&_puntos{
+								display : flex;
+								flex-direction: column;
+								padding: 5px;
+								margin-top: 5px;
+								background-color: $Coloropcionesmenu;
+								height: 100%;
+
+								&_opcion{
+									display: flex;
+									align-items: center;
+									padding: 3px;
+									margin-bottom: 20px;
+									margin-left: 10px;
+								}
+
+								&_opcion i{
+									margin-right: .3vw;
+									font-size: .7vw;//
+								}
+
+								&_opcion span{
+									font-size: $asesoriacontabla;//
+								}
+							}
+						}
+					}
+
+					&_derecha{
+						display: flex;
+						flex-direction: column;
+						width: 40%;
+						margin-left: 2px;
+
+						&_encabezado{
+							background-color: $Colorprincipal;
+							color: white;
+							text-align: center;
+							padding: 18px;
+						}
+
+						&_encabezado span{
+							font-size: $asesoriaenctabla;//
+						}
+
+						&_puntos{
+							display : flex;
+							flex-direction: column;
+							padding: 5px;
+							margin-top: 5px;
+							background-color: $Coloropcionesmenu;
+
+							&_opcion{
+								display: flex;
+								align-items: center;
+								padding: 3px;
+								margin-bottom: 20px;
+								margin-left: 10px;
+							}
+
+							&_opcion i{
+								margin-right: .3vw;
+								font-size: .7vw;//
+							}
+
+							&_opcion span{
+								font-size: $asesoriacontabla;//
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $premoviles){
+	.asesoria{
+		&-cont{
+
+			&-encabezado{
+
+				&_titulo{
+		
+				}
+
+				&_titulo span{
+					font-size: $tamanotitulores;//
+					color: $Colorprincipal;
+				}
+
+				&_texto{
+					text-align: left;//
+					padding: 30px;//
+					padding-left: 30px;//
+					padding-right: 30px;//
+				}
+
+				&_texto p{
+					font-size: $tamanoparrafores;//
+				}
+			}
+
+			&-tabla{
+
+				&_tablas{
+					display : flex;
+					flex-direction: column;//
+
+					&_izquierda{
+						display :flex;
+						flex-direction: column;//
+						width: 100%;//
+
+						&_izquierda{
+							display: flex;
+							flex-direction: column;
+							width: 100%;//
+							margin-left: 2px;
+
+							&_encabezado2 span{
+								font-size: $asesoriaenctabla;//
+							}
+
+							&_encabezado span{
+								font-size: $asesoriaenctabla;//
+							}
+
+							&_puntos{
+
+								&_opcion i{
+									margin-right: .3vw;
+									font-size: 5px;//
+								}
+
+								&_opcion span{
+									font-size: $asesoriacontabla;//
+								}
+							}
+						}
+					}
+
+					&_derecha{
+						display: flex;
+						flex-direction: column;
+						width: 100%;//
+						margin-left: 2px;
+
+						&_encabezado span{
+							font-size: $asesoriaenctabla;//
+						}
+
+						&_puntos{
+
+							&_opcion{
+								display: flex;
+								align-items: center;
+								padding: 3px;
+								margin-bottom: 10px;//
+								margin-left: 10px;
+							}
+
+							&_opcion i{
+								margin-right: .3vw;
+								font-size: 5px;//
+							}
+
+							&_opcion span{
+								font-size: $asesoriacontabla;//
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -137,6 +137,12 @@ h6 {
   width: 90px;
 }
 
+.m_lineBottom_tabla {
+  border-bottom: 15px solid #b96400;
+  display: inline-block;
+  width: 100%;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -4256,6 +4262,326 @@ h6 {
   }
   .servicios-cont_contenido_cont_triangulo {
     font-size: 50px;
+  }
+}
+.asesoria {
+  background-color: #f6f6f6;
+}
+.asesoria-cont {
+  display: flex;
+  flex-direction: column;
+}
+.asesoria-cont-encabezado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+}
+.asesoria-cont-encabezado_titulo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.asesoria-cont-encabezado_titulo span {
+  font-size: 4vw;
+  color: #b96400;
+}
+.asesoria-cont-encabezado_texto {
+  text-align: justify;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+.asesoria-cont-tabla {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.asesoria-cont-tabla_tablas {
+  display: flex;
+  flex-direction: row;
+}
+.asesoria-cont-tabla_tablas_izquierda {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+.asesoria-cont-tabla_tablas_izquierda_izquierda {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 2px;
+}
+.asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado {
+  background-color: #b96400;
+  color: white;
+  text-align: center;
+  padding: 18px;
+}
+.asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado2 {
+  background-color: #c9842f;
+  color: white;
+  text-align: center;
+  padding: 18px;
+}
+.asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado2 span {
+  font-size: 2.2vw;
+}
+.asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado span {
+  font-size: 2.2vw;
+}
+.asesoria-cont-tabla_tablas_izquierda_izquierda_puntos {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: white;
+  height: 100%;
+}
+.asesoria-cont-tabla_tablas_izquierda_izquierda_puntos_opcion {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.asesoria-cont-tabla_tablas_izquierda_izquierda_puntos_opcion i {
+  margin-right: 0.3vw;
+  font-size: 0.6vw;
+}
+.asesoria-cont-tabla_tablas_izquierda_izquierda_puntos_opcion span {
+  font-size: 1.3vw;
+}
+.asesoria-cont-tabla_tablas_derecha {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 2px;
+}
+.asesoria-cont-tabla_tablas_derecha_encabezado {
+  background-color: #b96400;
+  color: white;
+  text-align: center;
+  padding: 18px;
+}
+.asesoria-cont-tabla_tablas_derecha_encabezado span {
+  font-size: 2.2vw;
+}
+.asesoria-cont-tabla_tablas_derecha_puntos {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: white;
+}
+.asesoria-cont-tabla_tablas_derecha_puntos_opcion {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.asesoria-cont-tabla_tablas_derecha_puntos_opcion i {
+  margin-right: 0.3vw;
+  font-size: 0.6vw;
+}
+.asesoria-cont-tabla_tablas_derecha_puntos_opcion span {
+  font-size: 1.3vw;
+}
+
+@media screen and (max-width: 992px) {
+  .asesoria-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .asesoria-cont-encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .asesoria-cont-encabezado_titulo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
+  .asesoria-cont-encabezado_titulo span {
+    font-size: 32px;
+    color: #b96400;
+  }
+  .asesoria-cont-encabezado_texto {
+    text-align: left;
+    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .asesoria-cont-encabezado_texto p {
+    font-size: 16px;
+  }
+  .asesoria-cont-tabla {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+  .asesoria-cont-tabla_tablas {
+    display: flex;
+    flex-direction: row;
+  }
+  .asesoria-cont-tabla_tablas_izquierda {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 2px;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado {
+    background-color: #b96400;
+    color: white;
+    text-align: center;
+    padding: 18px;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado2 {
+    background-color: #c9842f;
+    color: white;
+    text-align: center;
+    padding: 18px;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado2 span {
+    font-size: 20px;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado span {
+    font-size: 20px;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_puntos {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;
+    height: 100%;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_puntos_opcion {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_puntos_opcion i {
+    margin-right: 0.3vw;
+    font-size: 0.7vw;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_puntos_opcion span {
+    font-size: 15px;
+  }
+  .asesoria-cont-tabla_tablas_derecha {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 2px;
+  }
+  .asesoria-cont-tabla_tablas_derecha_encabezado {
+    background-color: #b96400;
+    color: white;
+    text-align: center;
+    padding: 18px;
+  }
+  .asesoria-cont-tabla_tablas_derecha_encabezado span {
+    font-size: 20px;
+  }
+  .asesoria-cont-tabla_tablas_derecha_puntos {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;
+  }
+  .asesoria-cont-tabla_tablas_derecha_puntos_opcion {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .asesoria-cont-tabla_tablas_derecha_puntos_opcion i {
+    margin-right: 0.3vw;
+    font-size: 0.7vw;
+  }
+  .asesoria-cont-tabla_tablas_derecha_puntos_opcion span {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .asesoria-cont-encabezado_titulo span {
+    font-size: 32px;
+    color: #b96400;
+  }
+  .asesoria-cont-encabezado_texto {
+    text-align: left;
+    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .asesoria-cont-encabezado_texto p {
+    font-size: 16px;
+  }
+  .asesoria-cont-tabla_tablas {
+    display: flex;
+    flex-direction: column;
+  }
+  .asesoria-cont-tabla_tablas_izquierda {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2px;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado2 span {
+    font-size: 20px;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado span {
+    font-size: 20px;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_puntos_opcion i {
+    margin-right: 0.3vw;
+    font-size: 5px;
+  }
+  .asesoria-cont-tabla_tablas_izquierda_izquierda_puntos_opcion span {
+    font-size: 15px;
+  }
+  .asesoria-cont-tabla_tablas_derecha {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2px;
+  }
+  .asesoria-cont-tabla_tablas_derecha_encabezado span {
+    font-size: 20px;
+  }
+  .asesoria-cont-tabla_tablas_derecha_puntos_opcion {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .asesoria-cont-tabla_tablas_derecha_puntos_opcion i {
+    margin-right: 0.3vw;
+    font-size: 5px;
+  }
+  .asesoria-cont-tabla_tablas_derecha_puntos_opcion span {
+    font-size: 15px;
   }
 }
 .scrolltop {
