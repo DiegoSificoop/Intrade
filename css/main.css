@@ -4297,6 +4297,7 @@ h6 {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
+  margin-bottom: 40px;
 }
 .asesoria-cont-tabla_tablas {
   display: flex;
@@ -4582,6 +4583,306 @@ h6 {
   }
   .asesoria-cont-tabla_tablas_derecha_puntos_opcion span {
     font-size: 15px;
+  }
+}
+.franquicias {
+  height: 100vh;
+  background-image: url("../img/rhino.jpeg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.franquicias .franquicias-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.franquicias .franquicias-cont-superior {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.franquicias .franquicias-cont-superior_imagen {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 25px;
+}
+.franquicias .franquicias-cont-superior_imagen img {
+  width: 75%;
+}
+.franquicias .franquicias-cont-superior_info {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px;
+}
+.franquicias .franquicias-cont-superior_info_titulo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.franquicias .franquicias-cont-superior_info_titulo span {
+  margin-right: 3vw;
+  color: white;
+  font-size: 3.6vw;
+}
+.franquicias .franquicias-cont-superior_info_texto {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.franquicias .franquicias-cont-inferior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.franquicias .franquicias-cont-inferior_titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.franquicias .franquicias-cont-inferior_titulo_uno {
+  color: white;
+  font-size: 1.8vw;
+  margin-bottom: 3px;
+}
+.franquicias .franquicias-cont-inferior_titulo_dos {
+  color: white;
+  font-size: 0.7vw;
+}
+.franquicias .franquicias-cont-inferior_franquicias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+.franquicias .franquicias-cont-inferior_franquicias_contimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border-top: 1px dotted white;
+  border-bottom: 1px dotted white;
+  border-right: 1px dotted white;
+  transition: all 0.7s ease;
+  width: 20%;
+}
+.franquicias .franquicias-cont-inferior_franquicias_contimg_ultimo {
+  padding: 25px;
+  border-top: 1px dotted white;
+  border-bottom: 1px dotted white;
+  border-right: 0px dotted white;
+  transition: all 0.7s ease;
+  width: 20%;
+}
+.franquicias .franquicias-cont-inferior_franquicias_contimg_ultimo:hover {
+  filter: brightness(0.3);
+}
+.franquicias .franquicias-cont-inferior_franquicias_contimg:hover {
+  filter: brightness(0.3);
+}
+
+@media screen and (max-width: 992px) {
+  .franquicias .franquicias-cont {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .franquicias .franquicias-cont-superior {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  .franquicias .franquicias-cont-superior_imagen {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    padding: 10px;
+  }
+  .franquicias .franquicias-cont-superior_imagen img {
+    width: 75%;
+  }
+  .franquicias .franquicias-cont-superior_info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .franquicias .franquicias-cont-superior_info_titulo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  .franquicias .franquicias-cont-superior_info_titulo span {
+    margin-right: 3vw;
+    color: white;
+    font-size: 32px;
+  }
+  .franquicias .franquicias-cont-superior_info_texto {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .franquicias .franquicias-cont-superior_info_texto p {
+    font-size: 16px;
+  }
+  .franquicias .franquicias-cont-inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .franquicias .franquicias-cont-inferior_titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .franquicias .franquicias-cont-inferior_titulo_uno {
+    color: white;
+    font-size: 20px;
+  }
+  .franquicias .franquicias-cont-inferior_titulo_dos {
+    color: white;
+    font-size: 8px;
+  }
+  .franquicias .franquicias-cont-inferior_franquicias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .franquicias .franquicias-cont-inferior_franquicias_contimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+    border-right: 1px dotted white;
+    transition: all 0.7s ease;
+    width: 150px;
+  }
+  .franquicias .franquicias-cont-inferior_franquicias_contimg_ultimo {
+    padding: 25px;
+    border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+    border-right: 0px dotted white;
+    transition: all 0.7s ease;
+    width: 150px;
+  }
+  .franquicias .franquicias-cont-inferior_franquicias_contimg_ultimo:hover {
+    filter: brightness(0.3);
+  }
+  .franquicias .franquicias-cont-inferior_franquicias_contimg:hover {
+    filter: brightness(0.3);
+  }
+}
+@media screen and (max-width: 790px) {
+  .franquicias .franquicias-cont {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .franquicias .franquicias-cont-superior {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .franquicias .franquicias-cont-superior_imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+  }
+  .franquicias .franquicias-cont-superior_imagen img {
+    width: 80%;
+  }
+  .franquicias .franquicias-cont-superior_info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .franquicias .franquicias-cont-superior_info_titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .franquicias .franquicias-cont-superior_info_titulo span {
+    margin-right: 3vw;
+    color: white;
+    font-size: 32px;
+  }
+  .franquicias .franquicias-cont-superior_info_texto {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .franquicias .franquicias-cont-superior_info_texto p {
+    font-size: 16px;
+  }
+  .franquicias .franquicias-cont-inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .franquicias .franquicias-cont-inferior_titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .franquicias .franquicias-cont-inferior_titulo_uno {
+    color: white;
+    font-size: 20px;
+  }
+  .franquicias .franquicias-cont-inferior_titulo_dos {
+    color: white;
+    font-size: 8px;
+  }
+  .franquicias .franquicias-cont-inferior_franquicias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .franquicias .franquicias-cont-inferior_franquicias_contimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+    border-right: 1px dotted white;
+    transition: all 0.7s ease;
+    width: 100px;
+  }
+  .franquicias .franquicias-cont-inferior_franquicias_contimg_ultimo {
+    padding: 25px;
+    border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+    border-right: 0px dotted white;
+    transition: all 0.7s ease;
+    width: 100px;
+  }
+  .franquicias .franquicias-cont-inferior_franquicias_contimg_ultimo:hover {
+    filter: brightness(0.3);
+  }
+  .franquicias .franquicias-cont-inferior_franquicias_contimg:hover {
+    filter: brightness(0.3);
   }
 }
 .scrolltop {
