@@ -240,6 +240,8 @@
 
 @media screen and (max-width: $premoviles){
 	.franquicias{
+		height: initial;
+
 		.franquicias-cont{
 			display: flex; 
 			flex-direction: column;

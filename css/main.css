@@ -4787,6 +4787,9 @@ h6 {
   }
 }
 @media screen and (max-width: 790px) {
+  .franquicias {
+    height: initial;
+  }
   .franquicias .franquicias-cont {
     display: flex;
     flex-direction: column;
