@@ -143,6 +143,13 @@ h6 {
   width: 100%;
 }
 
+.m_lineBottom_franquicia {
+  border-bottom: 5px solid #b96400;
+  display: inline-block;
+  width: 100%;
+  margin-top: 5px;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -4597,6 +4604,7 @@ h6 {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  margin-bottom: 60px;
 }
 .franquicias .franquicias-cont-superior {
   display: flex;
@@ -4791,9 +4799,9 @@ h6 {
     height: initial;
   }
   .franquicias .franquicias-cont {
-    display: flex;
+    /*display: flex; 
     flex-direction: column;
-    padding: 10px;
+    padding: 10px;*/
   }
   .franquicias .franquicias-cont-superior {
     display: flex;
@@ -4816,6 +4824,21 @@ h6 {
     justify-content: center;
     flex-direction: column;
     padding: 30px;
+    /*&_titulo span{
+    						margin-right: 3vw;
+    						color: $Coloropcionesmenu;
+    						font-size: $tamanotitulores;
+    					}
+    
+    					&_texto{
+    						display:flex;
+    						justify-content: center;
+    						color: $Coloropcionesmenu;
+    					}
+    
+    					&_texto p{
+    						font-size: $tamanoparrafores;
+    					}*/
   }
   .franquicias .franquicias-cont-superior_info_titulo {
     display: flex;
@@ -4823,24 +4846,11 @@ h6 {
     justify-content: center;
     margin-bottom: 20px;
   }
-  .franquicias .franquicias-cont-superior_info_titulo span {
-    margin-right: 3vw;
-    color: white;
-    font-size: 32px;
-  }
-  .franquicias .franquicias-cont-superior_info_texto {
-    display: flex;
-    justify-content: center;
-    color: white;
-  }
-  .franquicias .franquicias-cont-superior_info_texto p {
-    font-size: 16px;
-  }
   .franquicias .franquicias-cont-inferior {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
     margin-top: 10px;
   }
   .franquicias .franquicias-cont-inferior_titulo {
@@ -4849,43 +4859,153 @@ h6 {
     align-items: center;
   }
   .franquicias .franquicias-cont-inferior_titulo_uno {
-    color: white;
     font-size: 20px;
   }
   .franquicias .franquicias-cont-inferior_titulo_dos {
-    color: white;
     font-size: 8px;
   }
   .franquicias .franquicias-cont-inferior_franquicias {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 30px;*/
+    /*&_contimg:hover{
+    	filter: brightness(0.30);
+    }*/
   }
   .franquicias .franquicias-cont-inferior_franquicias_contimg {
-    display: flex;
+    /*display: flex;
     align-items: center;
     justify-content: center;
     padding: 25px;
     border-top: 1px dotted white;
     border-bottom: 1px dotted white;
     border-right: 1px dotted white;
-    transition: all 0.7s ease;
+    transition : all 0.7s ease;*/
     width: 100px;
+    /*&_ultimo:hover{
+    	filter: brightness(0.30);
+    }*/
   }
   .franquicias .franquicias-cont-inferior_franquicias_contimg_ultimo {
-    padding: 25px;
+    /*padding: 25px;
     border-top: 1px dotted white;
     border-bottom: 1px dotted white;
     border-right: 0px dotted white;
-    transition: all 0.7s ease;
+    transition : all 0.7s ease;*/
     width: 100px;
   }
-  .franquicias .franquicias-cont-inferior_franquicias_contimg_ultimo:hover {
-    filter: brightness(0.3);
+}
+.franquiciasfooter {
+  background-image: url("../img/fondogris.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.franquiciasfooter .franquiciasfooter-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.franquiciasfooter .franquiciasfooter-cont_element {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  width: 22%;
+}
+.franquiciasfooter .franquiciasfooter-cont_element_superior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.franquiciasfooter .franquiciasfooter-cont_element_superior_img {
+  display: flex;
+  flex-direction: column;
+}
+.franquiciasfooter .franquiciasfooter-cont_element_inferior {
+  display: flex;
+  flex-direction: column;
+}
+.franquiciasfooter .franquiciasfooter-cont_element_inferior_info {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.franquiciasfooter .franquiciasfooter-cont_element_inferior_info p {
+  font-size: 1vw;
+}
+.franquiciasfooter .franquiciasfooter-cont_element_inferior_etiqueta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.franquiciasfooter .franquiciasfooter-cont_element_inferior_etiqueta_nombre {
+  color: #b96400;
+  font-size: 1.2vw;
+  margin-bottom: 8px;
+  font-weight: 800;
+}
+.franquiciasfooter .franquiciasfooter-cont_element_inferior_etiqueta_puesto {
+  color: white;
+  font-size: 0.9vw;
+}
+
+@media screen and (max-width: 992px) {
+  .franquiciasfooter .franquiciasfooter-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 80px;
   }
-  .franquicias .franquicias-cont-inferior_franquicias_contimg:hover {
-    filter: brightness(0.3);
+  .franquiciasfooter .franquiciasfooter-cont_element {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    width: 285px;
+  }
+  .franquiciasfooter .franquiciasfooter-cont_element_superior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .franquiciasfooter .franquiciasfooter-cont_element_superior_img {
+    display: flex;
+    flex-direction: column;
+  }
+  .franquiciasfooter .franquiciasfooter-cont_element_inferior {
+    display: flex;
+    flex-direction: column;
+  }
+  .franquiciasfooter .franquiciasfooter-cont_element_inferior_info {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .franquiciasfooter .franquiciasfooter-cont_element_inferior_info p {
+    font-size: 13px;
+  }
+  .franquiciasfooter .franquiciasfooter-cont_element_inferior_etiqueta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .franquiciasfooter .franquiciasfooter-cont_element_inferior_etiqueta_nombre {
+    color: #b96400;
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-weight: 800;
+  }
+  .franquiciasfooter .franquiciasfooter-cont_element_inferior_etiqueta_puesto {
+    color: white;
+    font-size: 11px;
   }
 }
 .scrolltop {
