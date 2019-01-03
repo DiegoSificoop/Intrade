@@ -4956,46 +4956,14 @@ h6 {
 }
 
 @media screen and (max-width: 992px) {
-  .franquiciasfooter .franquiciasfooter-cont {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 20px;
-    margin-bottom: 80px;
-  }
   .franquiciasfooter .franquiciasfooter-cont_element {
     display: flex;
     flex-direction: column;
     padding: 8px;
     width: 285px;
   }
-  .franquiciasfooter .franquiciasfooter-cont_element_superior {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .franquiciasfooter .franquiciasfooter-cont_element_superior_img {
-    display: flex;
-    flex-direction: column;
-  }
-  .franquiciasfooter .franquiciasfooter-cont_element_inferior {
-    display: flex;
-    flex-direction: column;
-  }
-  .franquiciasfooter .franquiciasfooter-cont_element_inferior_info {
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
-  }
   .franquiciasfooter .franquiciasfooter-cont_element_inferior_info p {
     font-size: 13px;
-  }
-  .franquiciasfooter .franquiciasfooter-cont_element_inferior_etiqueta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .franquiciasfooter .franquiciasfooter-cont_element_inferior_etiqueta_nombre {
     color: #b96400;

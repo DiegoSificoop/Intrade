@@ -72,60 +72,39 @@
 	.franquiciasfooter{
 
 		.franquiciasfooter-cont{
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			flex-direction: row;
-			margin-top: 20px;
-			margin-bottom: 80px;
 
 			&_element{
 				display: flex;
 				flex-direction: column;
 				padding: 8px;
-				width: 285px;//31%;
+				width: 285px;//
 
 				&_superior{
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-					margin-bottom: 20px;
-
 					&_img{
-						display: flex;
-						flex-direction: column;
 					}
 				}
 
 				&_inferior{
-					display: flex;
-					flex-direction: column;
 
 					&_info{
-						color: $Coloropcionesmenu;
-						text-align: center;
-						margin-bottom: 20px;
 					}
 
 					&_info p{
-						font-size: $tamanotextofranrespon;
+						font-size: $tamanotextofranrespon;//
 					}
 
 					&_etiqueta{
-						display: flex;
-						flex-direction: column;
-						align-items: center;
 
 						&_nombre{
 							color: $Colorprincipal;
-							font-size: $tamanonombrefranquisiares;
+							font-size: $tamanonombrefranquisiares;//
 							margin-bottom: 8px;
 							font-weight: 800;
 						}
 
 						&_puesto{
 							color: $Coloropcionesmenu;
-							font-size: $tamanopuestofranquisiares;
+							font-size: $tamanopuestofranquisiares;//
 						}
 					}
 				}
