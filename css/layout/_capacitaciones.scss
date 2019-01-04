@@ -1,0 +1,316 @@
+.capacitaciones{
+	background-color: $Colorbgasesoria;
+
+	.capacitaciones-cont{
+		display: flex;
+		flex-direction: row; 
+		justify-content: space-around;
+		margin-bottom: 50px;
+		margin-top: 50px;
+
+		&_info{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 60%;
+			margin-left: 140px;
+
+			&_superior{
+				display: flex;
+				flex-direction: column;
+
+				&_titulo{
+					color: $Colorprincipal;
+					font-size: $tamañotitulosprin;
+					margin-bottom: 25px;
+				}
+
+				&_texto{
+					margin-bottom: 20px;
+				}
+
+				&_texto p{
+					font-size: $tamanotextocapa;
+				}
+			}
+
+			&_inferior{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+
+				&_info{
+					display: flex;
+					flex-direction: column;
+					width: 50%;
+					margin-right: 25px; 
+
+
+					&_img{
+						margin-bottom: 28px;
+					}
+
+					&_titulo{
+						display: flex; 
+						justify-content: flex-start;
+						flex-direction: column;
+						color: $Colorprincipal;
+						margin-bottom: 15px;
+
+						&_estilo{
+							font-size: $tamanosubtitulocapa;
+							color: $Colorsubtitulos;
+							font-weight: 800;
+						}
+					}
+
+					&_titulo span{
+						margin-bottom: 5px;
+					}
+
+					&_texto{
+						display: flex; 
+						justify-content: flex-start;
+
+						&_descripcion{
+							color: gray;
+						}
+
+						&_descripcion p{
+							margin-bottom: 18px;
+							font-size: $tamanotextocapa;
+						}
+					}
+
+					&_texto a{
+						width: 80px;
+						color: white;
+						background-color: black;
+						padding-top: 7px;
+						padding-bottom: 7px;
+						padding-left: 24px;
+						padding-right: 24px;
+						font-size: 9px;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+
+		&_imagen{
+			display : flex;
+			flex-direction: column;
+			width: 40%;
+
+			&_img{
+				width: 100%;
+				margin-top: 110px;
+			}
+
+			&_titulo{
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-end;
+
+				&_icon{
+					width: 8%;
+				}
+
+				&_descrip{
+					color: $Colorprincipal;
+					font-size: 2.8vw;
+				}
+			}
+
+		}
+	}
+}
+
+@media screen and (max-width: $tabletas){
+	.capacitaciones{
+
+		.capacitaciones-cont{
+
+			&_info{
+				margin-left: 0px;//
+
+				&_superior{
+
+					&_titulo{
+						color: $Colorprincipal;
+						font-size: $tamanotitulores;//
+						margin-bottom: 25px;
+					}
+
+					&_texto{
+					}
+
+					&_texto p{
+						font-size: $tamanotextocapares;//
+					}
+				}
+
+				&_inferior{
+
+					&_info{
+
+						&_img{
+							
+						}
+
+						&_titulo{
+
+							&_estilo{
+								font-size: $tamanosubtitulocapares;//
+								color: $Colorsubtitulos;
+								font-weight: 800;
+							}
+						}
+
+						&_titulo span{
+							
+						}
+
+						&_texto{
+
+							&_descripcion{
+							
+							}
+
+							&_descripcion p{
+								margin-bottom: 18px;
+								font-size: $tamanotextocapares;//
+							}
+						}
+
+						&_texto a{
+				
+						}
+					}
+				}
+			}
+
+			&_imagen{
+
+				&_img{
+				
+				}
+
+				&_titulo{
+
+					&_icon{
+						
+					}
+
+					&_descrip{
+						
+					}
+				}
+
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: $premoviles){
+	.capacitaciones{
+
+		.capacitaciones-cont{
+			display: flex;
+			flex-direction: column;// 
+			justify-content: center;//
+			padding: 20px;//
+			margin-bottom: 50px;
+			margin-top: 50px;
+
+			&_info{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				width: 100%;//
+				margin-left: 0px;//
+
+				&_superior{
+
+					&_titulo{
+						color: $Colorprincipal;
+						font-size: $tamanotitulores;//
+						margin-bottom: 25px;
+						text-align: center;//
+					}
+
+					&_texto{
+			
+					}
+
+					&_texto p{
+						font-size: $tamanotextocapares;//
+					}
+				}
+
+				&_inferior{
+
+					&_info{
+						margin-right: 10px;//
+
+
+						&_img{
+							
+						}
+
+						&_titulo{
+
+							&_estilo{
+						
+							}
+						}
+
+						&_titulo span{
+							
+						}
+
+						&_texto{
+
+							&_descripcion{
+	
+							}
+
+							&_descripcion p{
+								margin-bottom: 18px;
+								font-size: $tamanotextocapares;//
+							}
+						}
+
+						&_texto a{
+						
+						}
+					}
+				}
+			}
+
+			&_imagen{
+				display : flex;
+				flex-direction: column;
+				width: 100%;//
+
+				&_img{
+					width: 100%;
+					margin-top: 40px;//
+				}
+
+				&_titulo{
+				
+					&_icon{
+						
+					}
+
+					&_descrip{
+						color: $Colorprincipal;
+						font-size: 24px;//
+					}
+				}
+			}
+		}
+	}
+}

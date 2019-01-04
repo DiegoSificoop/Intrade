@@ -150,6 +150,13 @@ h6 {
   margin-top: 5px;
 }
 
+.m_lineBottom_capacitaciones {
+  border-bottom: 2px solid black;
+  display: inline-block;
+  width: 75px;
+  margin-top: 5px;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -4974,6 +4981,323 @@ h6 {
   .franquiciasfooter .franquiciasfooter-cont_element_inferior_etiqueta_puesto {
     color: white;
     font-size: 11px;
+  }
+}
+.capacitaciones {
+  background-color: #f6f6f6;
+}
+.capacitaciones .capacitaciones-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.capacitaciones .capacitaciones-cont_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin-left: 140px;
+}
+.capacitaciones .capacitaciones-cont_info_superior {
+  display: flex;
+  flex-direction: column;
+}
+.capacitaciones .capacitaciones-cont_info_superior_titulo {
+  color: #b96400;
+  font-size: 3.1vw;
+  margin-bottom: 25px;
+}
+.capacitaciones .capacitaciones-cont_info_superior_texto {
+  margin-bottom: 20px;
+}
+.capacitaciones .capacitaciones-cont_info_superior_texto p {
+  font-size: 1vw;
+}
+.capacitaciones .capacitaciones-cont_info_inferior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.capacitaciones .capacitaciones-cont_info_inferior_info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 25px;
+}
+.capacitaciones .capacitaciones-cont_info_inferior_info_img {
+  margin-bottom: 28px;
+}
+.capacitaciones .capacitaciones-cont_info_inferior_info_titulo {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: #b96400;
+  margin-bottom: 15px;
+}
+.capacitaciones .capacitaciones-cont_info_inferior_info_titulo_estilo {
+  font-size: 1.2vw;
+  color: #de7630;
+  font-weight: 800;
+}
+.capacitaciones .capacitaciones-cont_info_inferior_info_titulo span {
+  margin-bottom: 5px;
+}
+.capacitaciones .capacitaciones-cont_info_inferior_info_texto {
+  display: flex;
+  justify-content: flex-start;
+}
+.capacitaciones .capacitaciones-cont_info_inferior_info_texto_descripcion {
+  color: gray;
+}
+.capacitaciones .capacitaciones-cont_info_inferior_info_texto_descripcion p {
+  margin-bottom: 18px;
+  font-size: 1vw;
+}
+.capacitaciones .capacitaciones-cont_info_inferior_info_texto a {
+  width: 80px;
+  color: white;
+  background-color: black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 9px;
+  font-weight: 500;
+}
+.capacitaciones .capacitaciones-cont_imagen {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.capacitaciones .capacitaciones-cont_imagen_img {
+  width: 100%;
+  margin-top: 110px;
+}
+.capacitaciones .capacitaciones-cont_imagen_titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.capacitaciones .capacitaciones-cont_imagen_titulo_icon {
+  width: 8%;
+}
+.capacitaciones .capacitaciones-cont_imagen_titulo_descrip {
+  color: #b96400;
+  font-size: 2.8vw;
+}
+
+@media screen and (max-width: 992px) {
+  .capacitaciones .capacitaciones-cont_info {
+    margin-left: 0px;
+  }
+  .capacitaciones .capacitaciones-cont_info_superior_titulo {
+    color: #b96400;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .capacitaciones .capacitaciones-cont_info_superior_texto p {
+    font-size: 12px;
+  }
+  .capacitaciones .capacitaciones-cont_info_inferior_info_titulo_estilo {
+    font-size: 14px;
+    color: #de7630;
+    font-weight: 800;
+  }
+  .capacitaciones .capacitaciones-cont_info_inferior_info_texto_descripcion p {
+    margin-bottom: 18px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .capacitaciones .capacitaciones-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .capacitaciones .capacitaciones-cont_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .capacitaciones .capacitaciones-cont_info_superior_titulo {
+    color: #b96400;
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .capacitaciones .capacitaciones-cont_info_superior_texto p {
+    font-size: 12px;
+  }
+  .capacitaciones .capacitaciones-cont_info_inferior_info {
+    margin-right: 10px;
+  }
+  .capacitaciones .capacitaciones-cont_info_inferior_info_texto_descripcion p {
+    margin-bottom: 18px;
+    font-size: 12px;
+  }
+  .capacitaciones .capacitaciones-cont_imagen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .capacitaciones .capacitaciones-cont_imagen_img {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .capacitaciones .capacitaciones-cont_imagen_titulo_descrip {
+    color: #b96400;
+    font-size: 24px;
+  }
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1002;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 992px) {
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1002;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
   }
 }
 .scrolltop {
