@@ -1,0 +1,52 @@
+.porque{
+	background-color: white;
+
+	.porque-cont{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding: 30px;
+
+		&_pregunta{
+			color: $Colorprincipal;
+			margin-right: 40px;
+			font-size: 1.5vw;
+		}
+
+		&_link{
+			display: flex;
+			align-items: center;
+			font-size: 1.2vw;
+			font-weight: 500;
+		}
+	}
+}
+
+@media screen and (max-width: $tabletas){
+	.porque{
+		background-color: white;
+
+		.porque-cont{
+			display: flex;
+			flex-direction: column;//
+			justify-content: center;
+			padding: 30px;
+
+			&_pregunta{
+				color: $Colorprincipal;
+				margin-right: 0px;//
+				text-align: center;//
+				margin-bottom: 15px;
+				font-size: 20px;
+			}
+
+			&_link{
+				display: flex;
+				align-items: center;
+				justify-content: center;//
+				font-size: 14px;
+				font-weight: 500;
+			}
+		}
+	}
+}
