@@ -5300,6 +5300,27 @@ img.hover-shadow {
     overflow: auto;
   }
 }
+.testimonios {
+  background-color: black;
+}
+.testimonios .testimonios-cont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.testimonios .testimonios-cont_titulo {
+  text-align: center;
+  color: #b96400;
+  font-size: 3.1vw;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .testimonios .testimonios-cont_titulo {
+    font-size: 32px;
+  }
+}
 .scrolltop {
   display: none;
   position: fixed;
