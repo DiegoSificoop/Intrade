@@ -1,0 +1,28 @@
+.footer{
+	background-color: black;
+
+	.footer-cont{
+		display: flex;
+		justify-content: flex-end;
+		color: $Colorprincipal;
+		font-size: 0.8vw;
+		padding: 2vw;//25px;
+		margin-right: 20px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: $tabletas){
+	.footer{
+		background-color: black;
+
+		.footer-cont{
+			display: flex;
+			justify-content: flex-end;
+			color: $Colorprincipal;
+			font-size: 11px;
+			padding: 25px;
+			margin-right: 20px;
+		}
+	}
+}

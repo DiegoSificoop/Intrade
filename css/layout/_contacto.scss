@@ -1,0 +1,244 @@
+.contacto{
+	background-color: $Colorcontacto;
+
+	.contacto-cont{
+		display: flex;
+		margin-top: 40px;
+		margin-bottom: 60px;
+
+		&_info{
+			display: flex;
+			flex-direction: row;
+			width: 65%;
+
+			&_imagen{
+				margin-top: 60px;
+				width: 50%;
+			}
+
+			&_imagen img{
+				width: 80%;
+			}
+
+			&_contenido{
+				display : flex;
+				margin-left: 15px;
+				width: 50%;
+
+				&_izquierda{
+					display: flex;
+					flex-direction: column;
+					width: 50%;
+
+					&_encabezado{
+						display: flex;
+						flex-direction: column;
+						color: $Colorprincipal;
+						font-size: 1vw;
+					}
+
+					&_encabezado span{
+						font-weight: 800;
+					}
+
+					&_links{
+						display : flex;
+						flex-direction: column;
+						margin-top: 40px;
+
+						&_element{
+							display: flex;
+							margin-bottom: 20px;
+
+							&_icon{
+								display: flex;
+								align-items: center;
+								margin-right: 6px;
+								font-size: 0.9vw;
+							}
+
+							&_link{
+								display: flex;
+								align-items: center;
+								font-size: 0.9vw;
+							}
+						}
+					}
+				}
+
+				&_derecha{
+					display: flex;
+					flex-direction: column;
+					width: 50%;
+
+					&_encabezado{
+						display: flex;
+						flex-direction: column;
+						color: $Colorprincipal;
+						font-size: 1vw;
+					}
+
+					&_encabezado span{
+						font-weight: 800;
+					}
+
+					&_datos{
+						display : flex;
+						flex-direction: column;
+						margin-top: 40px;
+
+						&_descripcion{
+							display : flex;
+							flex-direction: column;
+							margin-bottom: 20px;
+
+							&_titulo{
+								display : flex;
+								flex-direction: row;
+								font-size: 0.9vw;
+								color: $Colorprincipal;
+							}
+
+							&_titulo i{
+								margin-right: 6px;
+								margin-bottom: 18px;
+							}
+
+							&_contenido{
+								font-size: 0.9vw;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		&_imagen{
+			width: 35%;
+		}
+	}
+}
+
+@media screen and (max-width: $tabletas){
+	.contacto{
+		background-color: $Colorcontacto;
+
+		.contacto-cont{
+			display: flex;
+			margin-top: 40px;
+			flex-direction: column;//
+
+			&_info{
+				display: flex;
+				flex-direction: row;
+				width: 100%;//
+
+				&_imagen{
+					margin-top: 60px;
+					width: 50%;
+				}
+
+				&_imagen img{
+					width: 80%;
+				}
+
+				&_contenido{
+					display : flex;
+					margin-left: 15px;
+					width: 50%;
+
+					&_izquierda{
+						display: flex;
+						flex-direction: column;
+						width: 50%;
+
+						&_encabezado{
+							display: flex;
+							flex-direction: column;
+							color: $Colorprincipal;
+							font-size: 12px;//
+						}
+
+						&_encabezado span{
+							font-weight: 800;
+						}
+
+						&_links{
+							display : flex;
+							flex-direction: column;
+							margin-top: 40px;
+
+							&_element{
+								display: flex;
+								margin-bottom: 20px;
+
+								&_icon{
+									display: flex;
+									align-items: center;
+									margin-right: 6px;
+									font-size: 10px;//
+								}
+
+								&_link{
+									display: flex;
+									align-items: center;
+									font-size: 10px;//
+								}
+							}
+						}
+					}
+
+					&_derecha{
+						display: flex;
+						flex-direction: column;
+						width: 50%;
+
+						&_encabezado{
+							display: flex;
+							flex-direction: column;
+							color: $Colorprincipal;
+							font-size: 12px;//
+						}
+
+						&_encabezado span{
+							font-weight: 800;
+						}
+
+						&_datos{
+							display : flex;
+							flex-direction: column;
+							margin-top: 30px;//
+
+							&_descripcion{
+								display : flex;
+								flex-direction: column;
+								margin-bottom: 20px;
+
+								&_titulo{
+									display : flex;
+									flex-direction: row;
+									font-size: 10px;//
+									color: $Colorprincipal;
+								}
+
+								&_titulo i{
+									margin-right: 6px;
+									margin-bottom: 18px;
+								}
+
+								&_contenido{
+									font-size: 10px;//
+								}
+							}
+						}
+					}
+				}
+			}
+
+			&_imagen{
+				display: none;//
+				width: 100%;//
+			}
+		}
+	}
+}
