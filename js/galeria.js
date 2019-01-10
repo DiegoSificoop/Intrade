@@ -78,7 +78,7 @@ jssor_1_slider_init = function() {
     }
 
     /*ios disable scrolling and bounce effect*/
-    $Jssor$.$AddEvent(document, "touchmove", function(event){event.touches.length < 2 && $Jssor$.$CancelEvent(event);});
+    //$Jssor$.$AddEvent(document, "touchmove", function(event){event.touches.length < 2 && $Jssor$.$CancelEvent(event);});
 
     ScaleSlider();
 
