@@ -1,6 +1,6 @@
 .franquicias{
 	height : 100vh;
-	background-image : url("../img/rhino.jpeg");
+	background-image : url("../img/rhino.jpg");
 	background-attachment : fixed;
 	background-position : center center;
 	background-size : cover;
@@ -97,6 +97,7 @@
 					border-right: 1px dotted white;
 					transition : all 0.7s ease;
 					width: 20%;//180px;
+					cursor: pointer;
 
 					&_ultimo{
 						padding: 25px;
@@ -105,6 +106,7 @@
 						border-right: 0px dotted white;
 						transition : all 0.7s ease;
 						width: 20%;//180px;
+						cursor: pointer;
 					}
 
 					&_ultimo:hover{

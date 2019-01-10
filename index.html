@@ -54,6 +54,7 @@
         .jssora053.jssora053ds {opacity:.3;pointer-events:none;}
   </style>
 	<link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/modal-video.min.css">
 </head>
 <body class="fondobody">
 	<section class="inicio" id="inicio">
@@ -75,15 +76,15 @@
       </div>
 
       <div class="menu_cont">
-          <div class="menu_cont_inferior" id="menu">
+          <div class="menu_cont_inferior cont-menu_menu" id="menu">
               <ul class="menu_cont_inferior_ul">
                 <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href="#inicio"> INICIO</a></li>
                 <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href="#conocenos"> CONÓCENOS</a></li>
                 <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href="#servicios"> PRODUCTOS Y SERVICIOS</a></li>
                 <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href="#franquicias"> FRANQUISIAS DISPONIBLES</a></li>
-                <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href="#contacto"> CASOS DE ÉXITO</a></li>
-                <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href="#contacto"> CAPACITACIONES EMPRESARIALES</a></li>
-                <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href="#contacto"> CONGRESOS ESPECIALIZADOS</a></li>
+                <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href="#casos"> CASOS DE ÉXITO</a></li>
+                <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href="#capacitaciones"> CAPACITACIONES EMPRESARIALES</a></li>
+                <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href=""> CONGRESOS ESPECIALIZADOS</a></li>
                 <li class="menu_cont_inferior_ul_li"><a class="menu_cont_inferior_ul_li_a" href="#contacto"> CONTACTO</a></li>
               </ul>
           </div>
@@ -92,7 +93,7 @@
 
     <div class="inicio-cont">
       <div class="inicio-imgtitulo">
-      	<img src="img/iniciatunegocio_logo.png" class="inicio-imgtitulo_size" alt="inicia">
+      	<img src="img/logotipo.png" class="inicio-imgtitulo_size" alt="inicia">
       </div>
     </div>
   </section>
@@ -176,10 +177,10 @@
                   </div>
                   <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:640px;height:960px;overflow:hidden;">
                       <div>
-                          <img data-u="image" src="img/team_member.png" />
+                          <img data-u="image" src="img/team1.png" />
                       </div>
                       <div>
-                          <img data-u="image" src="img/001.jpg" />
+                          <img data-u="image" src="img/team2.png" />
                       </div>
                       
                   </div>
@@ -212,7 +213,7 @@
         </div>
         <div class="servicios-cont_contenido">
           <div class="servicios-cont_contenido_imagen">
-            <img src="img/men_in_smartphone.png" alt="men">
+            <!--<img src="img/men_in_smartphone.png" alt="men">-->
           </div>
           <div class="servicios-cont_contenido_cont">
             <div class="servicios-cont_contenido_cont_info">
@@ -390,9 +391,29 @@
 
   <section class="m-section franquicias" id="franquicias">
     <div class="franquicias-cont">
-      <div class="franquicias-cont-superior">
+      <!-------------------------------------------->
+      <div class="franquicias-cont-superior tabcont" id="b1">
         <div class="franquicias-cont-superior_imagen">
           <img src="img/rhino_logo.png" alt="rhino">
+        </div>
+        <div class="franquicias-cont-superior_info">
+          <div class="franquicias-cont-superior_info_titulo">
+            <span>I n i c i a</span><span>a h o r a!</span>
+          </div>
+          <div class="franquicias-cont-superior_info_texto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="franquicias-cont-superior tabcont" id="b2" style="display: none;">
+        <div class="franquicias-cont-superior_imagen">
+          <img src="img/gallery_link.png" alt="rhino">
         </div>
         <div class="franquicias-cont-superior_info">
           <div class="franquicias-cont-superior_info_titulo">
@@ -408,38 +429,97 @@
           </div>
         </div>
       </div>
+
+      <div class="franquicias-cont-superior tabcont" id="b3" style="display: none;">
+        <div class="franquicias-cont-superior_imagen">
+          <img src="img/client1.png" alt="rhino">
+        </div>
+        <div class="franquicias-cont-superior_info">
+          <div class="franquicias-cont-superior_info_titulo">
+            <span>N e g o c i o</span><span>L i b r e</span>
+          </div>
+          <div class="franquicias-cont-superior_info_texto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="franquicias-cont-superior tabcont" id="b4" style="display: none;">
+        <div class="franquicias-cont-superior_imagen">
+          <img src="img/client2.png" alt="rhino">
+        </div>
+        <div class="franquicias-cont-superior_info">
+          <div class="franquicias-cont-superior_info_titulo">
+            <span>T u s</span><span>G a n a n c i a s</span>
+          </div>
+          <div class="franquicias-cont-superior_info_texto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="franquicias-cont-superior tabcont" id="b5" style="display: none;">
+        <div class="franquicias-cont-superior_imagen">
+          <img src="img/client3.png" alt="rhino">
+        </div>
+        <div class="franquicias-cont-superior_info">
+          <div class="franquicias-cont-superior_info_titulo">
+            <span>S e</span><span>L i b r e</span>
+          </div>
+          <div class="franquicias-cont-superior_info_texto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------------------------------->
       <div class="franquicias-cont-inferior">
         <div class="franquicias-cont-inferior_titulo">
           <span class="franquicias-cont-inferior_titulo_uno">FRANQUICIAS</span><span class="franquicias-cont-inferior_titulo_dos">CLICK PARA MAS INFORMACIÓN</span>
         </div>
         <div class="franquicias-cont-inferior_franquicias">
           <div class="franquicias-cont-inferior_franquicias_contimg">
-            <a href=""><img src="img/logo_example_2.png" alt="img2"></a>
+            <a onclick="openTab('b1');"><img src="img/logo_example_2.png" alt="img2"></a>
           </div>
           <div class="franquicias-cont-inferior_franquicias_contimg">
-            <a href=""><img src="img/logo_example_1.png" alt="img1"></a>
+            <a onclick="openTab('b2');"><img src="img/logo_example_1.png" alt="img1"></a>
           </div>
           <div class="franquicias-cont-inferior_franquicias_contimg">
-            <a href=""><img src="img/logo_example_3.png" alt="img3"></a>
+            <a onclick="openTab('b3');"><img src="img/logo_example_3.png" alt="img3"></a>
           </div>
           <div class="franquicias-cont-inferior_franquicias_contimg">
-            <a href=""><img src="img/logo_example_4.png" alt="img4"></a>
+            <a onclick="openTab('b4');"><img src="img/logo_example_4.png" alt="img4"></a>
           </div>
           <div class="franquicias-cont-inferior_franquicias_contimg_ultimo">
-            <a href=""><img src="img/logo_example_5.png" alt="img5"></a>
+            <a onclick="openTab('b5');"><img src="img/logo_example_5.png" alt="img5"></a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="m-section franquiciasfooter">
+  <section class="m-section franquiciasfooter" id="casos">
     <div class="m-center">
       <div class="franquiciasfooter-cont">
         <div class="franquiciasfooter-cont_element">
           <div class="franquiciasfooter-cont_element_superior">
             <div class="franquiciasfooter-cont_element_superior_img">
-              <img src="img/client1.png" alt="cliente">
+              <a href="" class="js-video-button" data-video-id="Mlp6K7rxZlc"><img src="img/client1.png" alt="cliente"></a>
               <span class="m_lineBottom_franquicia"></span>
             </div>
           </div>
@@ -460,7 +540,7 @@
         <div class="franquiciasfooter-cont_element">
           <div class="franquiciasfooter-cont_element_superior">
             <div class="franquiciasfooter-cont_element_superior_img">
-              <img src="img/client2.png" alt="cliente">
+              <a href="" class="js-video-button" data-channel="video" data-video-url="http://developer.a-blogcms.jp/themes/developer/movies/2.8.0.mp4"><img src="img/client2.png" alt="cliente"></a>
               <span class="m_lineBottom_franquicia"></span>
             </div>
           </div>
@@ -481,7 +561,7 @@
         <div class="franquiciasfooter-cont_element">
           <div class="franquiciasfooter-cont_element_superior">
             <div class="franquiciasfooter-cont_element_superior_img">
-              <img src="img/client3.png" alt="cliente">
+               <a href="" class="js-video-button" data-channel="video" data-video-url="http://developer.a-blogcms.jp/themes/developer/movies/2.8.0.mp4"><img src="img/client3.png" alt="cliente"></a>
               <span class="m_lineBottom_franquicia"></span>
             </div>
           </div>
@@ -502,7 +582,7 @@
     </div>
   </section>
 
-  <section class="m-section capacitaciones">
+  <section class="m-section capacitaciones" id="capacitaciones">
     <div class="m-center">
       <div class="capacitaciones-cont">
         <div class="capacitaciones-cont_info">
@@ -614,7 +694,7 @@
     </div>
   </section>
 
-  <section class="m-section testimonios">
+  <section class="m-section testimonios" id="testimonios">
     <div class="m-center">
       <div class="testimonios-cont">
         <div class="testimonios-con_slider">
@@ -626,10 +706,10 @@
               </div>
               <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
                   <div>
-                      <img data-u="image" src="img/sarah-paulson.png" />
+                      <img data-u="image" src="img/testimonio1.png" />
                   </div>
                   <div>
-                      <img data-u="image" src="img/client1.png" />
+                      <img data-u="image" src="img/testimonio2.png" />
                   </div>
               </div>
               <!-- Arrow Navigator -->
@@ -662,12 +742,12 @@
     </div>
   </section>
 
-  <footer class="m-section contacto">
+  <footer class="m-section contacto" id="contacto">
     <div class="m-center">
       <div class="contacto-cont">
         <div class="contacto-cont_info">
           <div class="contacto-cont_info_imagen">
-            <img src="img/iniciatunegocio_logo.png">
+            <img src="img/logotipo.png">
           </div>
           <div class="contacto-cont_info_contenido">
             <div class="contacto-cont_info_contenido_izquierda">
@@ -774,8 +854,17 @@
             </div>
           </div>
         </div>
-        <div class="contacto-cont_imagen">
-          <img src="img/footer_image.png" alt="imagen">
+        <div class="contacto-cont_form">
+          <!--<img src="img/footer_image.png" alt="imagen">-->
+          <span class="contacto-cont_form_titulo">Contácto</span>
+            <form action="enviarCorreo.php" method="POST" id="valform">
+              <input class="contacto-cont_form_input" type="text" name="nombre" id="nombre" placeholder="Nombre" autocomplete="off"/>
+              <input class="contacto-cont_form_input" type="text" name="nombre" id="nombre" placeholder="Teléfono" autocomplete="off"/>
+              <input class="contacto-cont_form_input" type="text" name="email" id="email" placeholder="Correo electrónico" autocomplete="off"/>
+              <input class="contacto-cont_form_input" type="text" name="nombre" id="nombre" placeholder="Asunto" autocomplete="off"/>
+              <textarea class="contacto-cont_form_input" name="comentario" id="texto" placeholder="Escribenos"></textarea>
+              <input class="contacto-cont_form_boton" type="submit" value="Enviar"/>
+            </form>
         </div>
       </div>
     </div>
@@ -789,8 +878,14 @@
     </div>
   </section>
 
+    <div class="container" id="flechas">
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+    </div>
 
     <a class="scrolltop" href="#" id="arriba"><span class="fa fa-angle-up"></span></a>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
     <script src="js/jquery/dist/jquery.min.js"></script>
     <script src="js/menuscroll.js"></script>
@@ -803,5 +898,15 @@
     <script src="js/galeriamodal.js" type="text/javascript"></script>
     <script src="js/galeria2.js" type="text/javascript"></script>
     <script type="text/javascript">jssor_2_slider_init();</script>
+    <script src="js/franquicias.js" type="text/javascript"></script>
+    <!--<script src="js/jquery-modal-video.min.js"></script>
+    <script>
+      $(".js-video-button").modalVideo({
+        youtube:{
+          controls:0,
+          nocookie: true
+        }
+      });
+    </script>-->
 </body>
 </html>

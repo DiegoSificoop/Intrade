@@ -4,7 +4,7 @@ jssor_1_slider_init = function() {
       $AutoPlay: 0,
       $Idle: 2000,
       $SlideEasing: $Jease$.$InOutSine,
-      $DragOrientation: 3,
+      $DragOrientation: 0,
       $ArrowNavigatorOptions: {
         $Class: $JssorArrowNavigator$
       },
@@ -78,7 +78,7 @@ jssor_1_slider_init = function() {
     }
 
     /*ios disable scrolling and bounce effect*/
-    //$Jssor$.$AddEvent(document, "touchmove", function(event){event.touches.length < 2 && $Jssor$.$CancelEvent(event);});
+    $Jssor$.$AddEvent(document, "touchmove", function(event){event.touches.length < 2 && $Jssor$.$CancelEvent(event);});
 
     ScaleSlider();
 

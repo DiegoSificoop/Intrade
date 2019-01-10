@@ -22,5 +22,12 @@ $(document).ready(function(){
 				flag = false; 
 			}
 		}
+
+		if(scroll > 6000){
+			$("#flechas").css({"display": "none"});
+		}
+		else{
+			$("#flechas").css({"display": "flex"});
+		}
 	});
 });

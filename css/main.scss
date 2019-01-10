@@ -10,7 +10,6 @@ $pcs : 1200px;
 @import "base/_base";
 @import "module/_module";
 @import "font-awesome-4.7.0/scss/font-awesome";
-//@import "fontawesome-free-5.6.3-web/scss/fontawesome";
 @import "layout/_inicio";
 @import "layout/_menu";
 @import "layout/_quienes";
@@ -24,6 +23,8 @@ $pcs : 1200px;
 @import "layout/_porque";
 @import "layout/_contacto";
 @import "layout/_footer";
+@import "layout/_flechas";
 @import "layout/_scrolltop";
 
+//@import "fontawesome-free-5.6.3-web/scss/fontawesome";
 //https://www.youtube.com/watch?v=jtzb2FNyzZY

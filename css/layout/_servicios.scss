@@ -1,5 +1,11 @@
 .servicios{
-	background-color: $Colorprincipal;
+	//background-color: $Colorprincipal;
+	//height : 100vh;
+	background-image : url("../img/fountain-pen.jpg");
+	background-attachment : fixed;
+	background-position : center center;
+	background-size : cover;
+	background-repeat : no-repeat;
 
 	&-cont{
 		display: flex; 

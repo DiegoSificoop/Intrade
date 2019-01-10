@@ -113,19 +113,54 @@
 			}
 		}
 
-		&_imagen{
-			width: 35%;
+		&_form{
+			display : flex; 
+			flex-direction : column;
+			width : 35%;
+			padding: 10px;
+
+			&_titulo{
+				color : $Colorprincipal;
+				font-size: 1.2vw;
+				font-weight: 800;
+				margin-bottom: 10px;
+			}
+
+			&_input{
+				width : 100%;
+		    	padding: 6px 10px;
+		    	margin: 3px 0;
+		    	display: inline-block;
+		    	border: 1px solid #ccc;
+		    	border-radius: 4px;
+		    	box-sizing: border-box;
+			}
+
+			&_boton{
+				width : 50%;
+				background-color: $Colorprincipal;
+			    color: white;
+			    padding: 6px 10px;
+			    margin: 3px 0;
+			    border: none;
+			    border-radius: 4px;
+			    cursor: pointer;
+			    transition : all 0.7s ease;
+
+			    &:hover{
+			    	background-color : $Coloropcionesmenu;
+				    color : $Colorprincipal;
+			    }
+			}
 		}
 	}
 }
 
 @media screen and (max-width: $tabletas){
 	.contacto{
-		background-color: $Colorcontacto;
 
 		.contacto-cont{
-			display: flex;
-			margin-top: 40px;
+			
 			flex-direction: column;//
 
 			&_info{
@@ -134,54 +169,41 @@
 				width: 100%;//
 
 				&_imagen{
-					margin-top: 60px;
-					width: 50%;
+			
 				}
 
 				&_imagen img{
-					width: 80%;
+					
 				}
 
 				&_contenido{
 					display : flex;
 					margin-left: 3px;//
-					width: 50%;
+					width: 50%;//
 
 					&_izquierda{
 						display: flex;
 						flex-direction: column;
-						width: 50%;
+						width: 50%;//
 
 						&_encabezado{
-							display: flex;
-							flex-direction: column;
-							color: $Colorprincipal;
+
 							font-size: 12px;//
 						}
 
 						&_encabezado span{
-							font-weight: 800;
+		
 						}
 
 						&_links{
-							display : flex;
-							flex-direction: column;
-							margin-top: 40px;
 
 							&_element{
-								display: flex;
-								margin-bottom: 20px;
 
 								&_icon{
-									display: flex;
-									align-items: center;
-									margin-right: 6px;
 									font-size: 10px;//
 								}
 
 								&_link{
-									display: flex;
-									align-items: center;
 									font-size: 10px;//
 								}
 							}
@@ -189,41 +211,30 @@
 					}
 
 					&_derecha{
-						display: flex;
-						flex-direction: column;
-						width: 50%;
+						width: 50%;//
 
 						&_encabezado{
-							display: flex;
-							flex-direction: column;
-							color: $Colorprincipal;
 							font-size: 12px;//
 						}
 
 						&_encabezado span{
-							font-weight: 800;
+							
 						}
 
 						&_datos{
-							display : flex;
-							flex-direction: column;
+							
 							margin-top: 30px;//
 
 							&_descripcion{
-								display : flex;
-								flex-direction: column;
-								margin-bottom: 20px;
-
+								
 								&_titulo{
-									display : flex;
-									flex-direction: row;
+									
 									font-size: 10px;//
 									color: $Colorprincipal;
 								}
 
 								&_titulo i{
-									margin-right: 6px;
-									margin-bottom: 18px;
+									
 								}
 
 								&_contenido{
@@ -235,9 +246,25 @@
 				}
 			}
 
-			&_imagen{
-				display: none;//
-				width: 100%;//
+			&_form{
+				display : flex; 
+				flex-direction : column;
+				width : 100%;//
+
+				&_titulo{
+					color : $Colorprincipal;
+					font-size: 12px;
+					font-weight: 800;
+					margin-bottom: 10px;
+				}
+
+				&_input{
+				
+				}
+
+				&_boton{
+			
+				}
 			}
 		}
 	}
