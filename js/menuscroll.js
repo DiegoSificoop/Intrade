@@ -23,11 +23,11 @@ $(document).ready(function(){
 			}
 		}
 
-		if(scroll > 6000){
+		/*if(scroll > 6000){
 			$("#flechas").css({"display": "none"});
 		}
 		else{
 			$("#flechas").css({"display": "flex"});
-		}
+		}*/
 	});
 });
