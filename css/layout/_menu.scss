@@ -78,6 +78,13 @@
 			margin-right: 10px;
 		}
 
+		&_izquierda a{
+			margin-right: 10px;
+			font-size: 1vw;
+			color: white;
+			padding: 1vh;
+		}
+
 		&_derecha{
 			display : flex; 
 			flex-direction: row;

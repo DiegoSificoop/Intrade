@@ -1,0 +1,267 @@
+.promocion-cont{
+	display: flex; 
+	flex-direction: column;
+
+	&_normal{
+		display : flex; 
+		flex-direction: row;
+
+		&_descripcion{
+			display: flex; 
+			flex-direction: column;
+			background-color: black;
+			width: 50%;
+
+			&_titulo{
+				text-align: center;
+				color: $Colorprincipal;
+				font-size: $tamanotituloprom;
+				margin-top: 80px;
+				margin-bottom:10px;
+			}
+
+			&_info{
+				text-align: center;
+				color: white;
+				padding: 10px;
+				margin-top: 30px;
+			}
+
+			&_info p{
+				font-size: $tamanoinfoprom;
+			}
+		}
+
+		&_video{
+			width: 50%;
+			position : relative;
+
+			&_padre{
+				width: 100%;
+				height: 0;
+				padding-top: 56.25%;
+				position: relative;
+			}
+
+			&_padre iframe{
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		&_video img{
+			width: 100%;
+		}
+	}
+
+	&_inverso{
+		display : flex; 
+		flex-direction: row-reverse;
+
+		&_video{
+			width: 50%;
+			position : relative;
+
+			&_padre{
+				width: 100%;
+				height: 0;
+				padding-top: 56.25%;
+				position: relative;
+			}
+
+			&_padre iframe{
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		&_video img{
+			width: 100%;
+		}
+
+		&_descripcion{
+			display: flex; 
+			flex-direction: column;
+			background-color: black;
+			width: 50%;
+
+			&_titulo{
+				text-align: center;
+				color: $Colorprincipal;
+				font-size: $tamanotituloprom;
+				margin-top: 80px;
+				margin-bottom:10px;
+			}
+
+			&_info{
+				text-align: center;
+				color: white;
+				padding: 10px;
+			}
+
+			&_info p{
+				font-size: $tamanoinfoprom;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $tabletas){
+	.promocion-cont{
+
+		&_normal{
+
+			&_descripcion{
+
+				&_titulo{
+					font-size: $tamanorestituloprom;//
+				}
+
+				&_info{
+					
+				}
+
+				&_info p{
+					font-size: $tamanoresinfoprom;//
+				}
+			}
+
+			&_video{
+				
+
+				&_padre{
+					
+				}
+
+				&_padre iframe{
+					
+				}
+			}
+
+			&_video img{
+			
+			}
+		}
+
+		&_inverso{
+
+			&_video{
+
+				&_padre{
+					
+				}
+
+				&_padre iframe{
+					
+				}
+			}
+
+			&_video img{
+				
+			}
+
+			&_descripcion{
+
+				&_titulo{
+					font-size: $tamanorestituloprom;//
+				}
+
+				&_info{
+	
+				}
+
+				&_info p{
+					font-size: $tamanoresinfoprom;//
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $premoviles){
+	.promocion-cont{
+
+		&_normal{
+			display : flex; 
+			flex-direction: column;
+
+			&_descripcion{
+				width: 100%;
+
+				&_titulo{
+				
+				}
+
+				&_info{
+					margin-bottom: 40px;
+				}
+
+				&_info p{
+					font-size: $tamanoresinfoprom;//
+				}
+			}
+
+			&_video{
+				width: 100%;
+
+				&_padre{
+					
+				}
+
+				&_padre iframe{
+					
+				}
+			}
+
+			&_video img{
+				
+			}
+		}
+
+		&_inverso{
+			display : flex; 
+			flex-direction: column;
+
+			&_video{
+				width: 100%;
+
+				&_padre{
+	
+				}
+
+				&_padre iframe{
+
+				}
+			}
+
+			&_video img{
+			}
+
+			&_descripcion{
+				width: 100%;
+
+				&_titulo{
+					
+				}
+
+				&_info{
+					margin-bottom: 40px;
+				}
+
+				&_info p{
+					
+				}
+			}
+		}
+	}
+}

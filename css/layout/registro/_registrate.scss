@@ -1,0 +1,196 @@
+.registrate{
+	background-image : url("../img/conference.jpg");
+	background-attachment : fixed;
+	background-position : center center;
+	background-size : cover;
+	background-repeat : no-repeat;
+
+	.registrate-cont{
+		display: flex;
+		flex-direction: row;
+
+		&_izquierda{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 50%;
+
+			&_titulo{
+				display: flex;
+				flex-direction: column; 
+				color: white;
+				/*margin-left: 200px;
+				margin-top: 100px;*/
+
+				&_letra{
+					font-size: 3.1vw;
+				}
+
+				&_sub{
+					display: flex;
+					flex-direction: row;
+					color: white;
+					margin-top: 18px;
+
+					&_letra{
+						margin-right: 4vw;
+						font-size: 3.5vw; 
+						font-weight: bold;
+					}
+				}
+			}
+		}
+
+		&_derecha{
+			display: flex; 
+			justify-content: center;
+			padding: 40px;
+			width: 50%;
+
+			&_form{
+				background-color: $Colorformulario;
+				display : flex; 
+				flex-direction : column;
+				align-items: center;
+				padding: 30px;
+				width: 70%;
+
+				&_titulo{
+					color : black;
+					font-size: 1.7vw;
+					font-weight: 800;
+					margin-bottom: 10px;
+				}
+
+				&_input{
+					width : 100%;
+			    	padding: 16px 10px;
+			    	margin: 20px 0;
+			    	display: inline-block;
+			    	border: 1px solid #ccc;
+			    	border-radius: 4px;
+			    	box-sizing: border-box;
+				}
+
+				&_boton{
+					width : 100%;
+					background-color: $Colorprincipal;
+				    color: white;
+				    padding: 16px 10px;
+				    margin: 3px 0;
+				    border: none;
+				    border-radius: 4px;
+				    cursor: pointer;
+				    transition : all 0.7s ease;
+
+				    &:hover{
+				    	background-color : $Coloropcionesmenu;
+					    color : $Colorprincipal;
+				    }
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $tabletas){
+	.registrate{
+
+		.registrate-cont{
+
+			&_izquierda{
+
+				&_titulo{
+
+					&_letra{
+						font-size: $tamanotitulores;//
+					}
+
+					&_sub{
+
+						&_letra{
+							margin-right: 4vw;
+							font-size: $tamanotitulores; //
+							font-weight: bold;
+						}
+					}
+				}
+			}
+
+			&_derecha{
+
+				&_form{
+
+					&_titulo{
+						color : black;
+						font-size: 17px;//1.7vw;
+						font-weight: 800;
+						margin-bottom: 10px;
+					}
+
+					&_input{
+					
+					}
+
+					&_boton{
+
+					    &:hover{
+					    
+					    }
+					}
+				}
+			}
+		}
+	}	
+}
+
+@media screen and (max-width: $premoviles){
+	.registrate{
+
+		.registrate-cont{
+			display: flex;
+			flex-direction: column;//
+			margin-top: 50px;//
+
+			&_izquierda{
+				width: 100%;//
+
+				&_titulo{
+
+					&_letra{
+					}
+
+					&_sub{
+
+						&_letra{
+							
+						}
+					}
+				}
+			}
+
+			&_derecha{
+				width: 100%;//
+
+				&_form{
+					width: 100%;
+
+					&_titulo{
+						
+					}
+
+					&_input{
+					
+					}
+
+					&_boton{
+
+					    &:hover{
+					    
+					    }
+					}
+				}
+			}
+		}
+	}
+}

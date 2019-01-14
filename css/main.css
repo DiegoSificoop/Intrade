@@ -3336,6 +3336,12 @@ h6 {
 .menu_superior_izquierda span i {
   margin-right: 10px;
 }
+.menu_superior_izquierda a {
+  margin-right: 10px;
+  font-size: 1vw;
+  color: white;
+  padding: 1vh;
+}
 .menu_superior_derecha {
   display: flex;
   flex-direction: row;
@@ -5332,6 +5338,102 @@ img.hover-shadow {
     font-size: 32px;
   }
 }
+.congresos {
+  background-image: url("../img/conference_guy.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.congresos .congresos-cont {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.congresos .congresos-cont_info {
+  border: 2px solid white;
+  padding: 25px;
+}
+.congresos .congresos-cont_info_titulo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 90px;
+}
+.congresos .congresos-cont_info_titulo_izquierda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.congresos .congresos-cont_info_titulo_izquierda_titulo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.congresos .congresos-cont_info_titulo_izquierda_titulo_chica {
+  font-size: 1.3vw;
+}
+.congresos .congresos-cont_info_titulo_izquierda_titulo_letra {
+  font-size: 3.1vw;
+  margin-top: 18px;
+}
+.congresos .congresos-cont_info_titulo_izquierda_titulo_sub {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: 18px;
+}
+.congresos .congresos-cont_info_titulo_izquierda_titulo_sub_letra {
+  margin-right: 4vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+.congresos .congresos-cont_info_enlace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.congresos .congresos-cont_info_enlace a {
+  width: 50%;
+  background-color: black;
+  color: white;
+  padding: 12px 10px;
+  margin: 3px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.congresos .congresos-cont_info_enlace a:hover {
+  background-color: white;
+  color: #b96400;
+}
+
+@media screen and (max-width: 790px) {
+  .congresos .congresos-cont {
+    display: flex;
+    justify-content: center;
+  }
+  .congresos .congresos-cont_info_titulo_izquierda_titulo_chica {
+    font-size: 13px;
+  }
+  .congresos .congresos-cont_info_titulo_izquierda_titulo_letra {
+    font-size: 31px;
+    margin-top: 18px;
+  }
+  .congresos .congresos-cont_info_titulo_izquierda_titulo_sub_letra {
+    margin-right: 4vw;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .congresos .congresos-cont_info_enlace a {
+    font-size: 15px;
+  }
+}
 .porque {
   background-color: white;
 }
@@ -5677,6 +5779,267 @@ img.hover-shadow {
 .scrolltop:hover {
   background: white;
   color: #b96400;
+}
+
+.registrate {
+  background-image: url("../img/conference.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.registrate .registrate-cont {
+  display: flex;
+  flex-direction: row;
+}
+.registrate .registrate-cont_izquierda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.registrate .registrate-cont_izquierda_titulo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /*margin-left: 200px;
+  margin-top: 100px;*/
+}
+.registrate .registrate-cont_izquierda_titulo_letra {
+  font-size: 3.1vw;
+}
+.registrate .registrate-cont_izquierda_titulo_sub {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: 18px;
+}
+.registrate .registrate-cont_izquierda_titulo_sub_letra {
+  margin-right: 4vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+.registrate .registrate-cont_derecha {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  width: 50%;
+}
+.registrate .registrate-cont_derecha_form {
+  background-color: #f5f7f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 70%;
+}
+.registrate .registrate-cont_derecha_form_titulo {
+  color: black;
+  font-size: 1.7vw;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.registrate .registrate-cont_derecha_form_input {
+  width: 100%;
+  padding: 16px 10px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.registrate .registrate-cont_derecha_form_boton {
+  width: 100%;
+  background-color: #b96400;
+  color: white;
+  padding: 16px 10px;
+  margin: 3px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.registrate .registrate-cont_derecha_form_boton:hover {
+  background-color: white;
+  color: #b96400;
+}
+
+@media screen and (max-width: 992px) {
+  .registrate .registrate-cont_izquierda_titulo_letra {
+    font-size: 32px;
+  }
+  .registrate .registrate-cont_izquierda_titulo_sub_letra {
+    margin-right: 4vw;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .registrate .registrate-cont_derecha_form_titulo {
+    color: black;
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .registrate .registrate-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .registrate .registrate-cont_izquierda {
+    width: 100%;
+  }
+  .registrate .registrate-cont_derecha {
+    width: 100%;
+  }
+  .registrate .registrate-cont_derecha_form {
+    width: 100%;
+  }
+}
+.promocion-cont {
+  display: flex;
+  flex-direction: column;
+}
+.promocion-cont_normal {
+  display: flex;
+  flex-direction: row;
+}
+.promocion-cont_normal_descripcion {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 50%;
+}
+.promocion-cont_normal_descripcion_titulo {
+  text-align: center;
+  color: #b96400;
+  font-size: 1.8vw;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+.promocion-cont_normal_descripcion_info {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+.promocion-cont_normal_descripcion_info p {
+  font-size: 1.2vw;
+}
+.promocion-cont_normal_video {
+  width: 50%;
+  position: relative;
+}
+.promocion-cont_normal_video_padre {
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  position: relative;
+}
+.promocion-cont_normal_video_padre iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.promocion-cont_normal_video img {
+  width: 100%;
+}
+.promocion-cont_inverso {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.promocion-cont_inverso_video {
+  width: 50%;
+  position: relative;
+}
+.promocion-cont_inverso_video_padre {
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  position: relative;
+}
+.promocion-cont_inverso_video_padre iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.promocion-cont_inverso_video img {
+  width: 100%;
+}
+.promocion-cont_inverso_descripcion {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 50%;
+}
+.promocion-cont_inverso_descripcion_titulo {
+  text-align: center;
+  color: #b96400;
+  font-size: 1.8vw;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+.promocion-cont_inverso_descripcion_info {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.promocion-cont_inverso_descripcion_info p {
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width: 992px) {
+  .promocion-cont_normal_descripcion_titulo {
+    font-size: 24px;
+  }
+  .promocion-cont_normal_descripcion_info p {
+    font-size: 14px;
+  }
+  .promocion-cont_inverso_descripcion_titulo {
+    font-size: 24px;
+  }
+  .promocion-cont_inverso_descripcion_info p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .promocion-cont_normal {
+    display: flex;
+    flex-direction: column;
+  }
+  .promocion-cont_normal_descripcion {
+    width: 100%;
+  }
+  .promocion-cont_normal_descripcion_info {
+    margin-bottom: 40px;
+  }
+  .promocion-cont_normal_descripcion_info p {
+    font-size: 14px;
+  }
+  .promocion-cont_normal_video {
+    width: 100%;
+  }
+  .promocion-cont_inverso {
+    display: flex;
+    flex-direction: column;
+  }
+  .promocion-cont_inverso_video {
+    width: 100%;
+  }
+  .promocion-cont_inverso_descripcion {
+    width: 100%;
+  }
+  .promocion-cont_inverso_descripcion_info {
+    margin-bottom: 40px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
