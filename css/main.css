@@ -3321,11 +3321,23 @@ h6 {
   width: 100%;
   height: 4vh;
   transition: all 0.7s ease;
+  /*&_izquierda a{
+  	margin-right: 10px;
+  	font-size: 1vw;
+  	color: white;
+  	padding: 1vh;
+  }*/
 }
 .menu_superior_izquierda {
   display: flex;
   flex-direction: row;
   margin-left: 15vw;
+}
+.menu_superior_izquierda_esen {
+  margin-right: 10px;
+  font-size: 1vw;
+  color: white;
+  padding: 1vh;
 }
 .menu_superior_izquierda span {
   margin-right: 1vw;
@@ -3335,12 +3347,6 @@ h6 {
 }
 .menu_superior_izquierda span i {
   margin-right: 10px;
-}
-.menu_superior_izquierda a {
-  margin-right: 10px;
-  font-size: 1vw;
-  color: white;
-  padding: 1vh;
 }
 .menu_superior_derecha {
   display: flex;
