@@ -82,7 +82,7 @@ span {
 }
 
 p, blockquote, li {
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   list-style: 1.3em;
 }
 
@@ -3697,7 +3697,7 @@ h6 {
   margin-left: 190px;
 }
 .quienes-cont-conocenos_titulo span {
-  font-size: 3.1vw;
+  font-size: 2.8vw;
 }
 .quienes-cont-conocenos_contenido {
   display: flex;
@@ -3757,7 +3757,7 @@ h6 {
   color: white;
 }
 .quienes-cont-donde_estamos_titulo span {
-  font-size: 3.1vw;
+  font-size: 2.8vw;
 }
 .quienes-cont-donde_estamos_texto {
   display: flex;
@@ -3795,7 +3795,7 @@ h6 {
   font-size: 3.1vw;
 }
 .quienes-cont-nuestro_info_titulo span {
-  font-size: 3.1vw;
+  font-size: 2.8vw;
   margin-bottom: 8px;
 }
 .quienes-cont-nuestro_info_texto {
@@ -4051,7 +4051,7 @@ h6 {
   margin-top: 100px;
 }
 .servicios-cont_titulo_letra {
-  font-size: 3.1vw;
+  font-size: 2.8vw;
 }
 .servicios-cont_titulo_sub {
   display: flex;
@@ -4061,7 +4061,7 @@ h6 {
 }
 .servicios-cont_titulo_sub_letra {
   margin-right: 4vw;
-  font-size: 3.5vw;
+  font-size: 3.1vw;
   font-weight: bold;
 }
 .servicios-cont_contenido {
@@ -4097,11 +4097,11 @@ h6 {
 }
 .servicios-cont_contenido_cont_info_cabecera img {
   margin-bottom: 14px;
-  width: 4vw;
+  width: 3.7vw;
 }
 .servicios-cont_contenido_cont_info_cabecera span {
   padding: 5px;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   font-weight: bold;
 }
 .servicios-cont_contenido_cont_info_puntos {
@@ -4122,7 +4122,7 @@ h6 {
 }
 .servicios-cont_contenido_cont_info_puntos_opcion span {
   font-family: "PT Sans Narrow", sans-serif;
-  font-size: 1.8vw;
+  font-size: 1.6vw;
 }
 .servicios-cont_contenido_cont_triangulo {
   margin: 0;
@@ -4312,7 +4312,7 @@ h6 {
   margin-bottom: 35px;
 }
 .asesoria-cont-encabezado_titulo span {
-  font-size: 4vw;
+  font-size: 3.2vw;
   color: #b96400;
 }
 .asesoria-cont-encabezado_texto {
@@ -4323,9 +4323,9 @@ h6 {
 .asesoria-cont-tabla {
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
   margin-bottom: 40px;
 }
 .asesoria-cont-tabla_tablas {
@@ -4347,19 +4347,19 @@ h6 {
   background-color: #b96400;
   color: white;
   text-align: center;
-  padding: 18px;
+  padding: 12px;
 }
 .asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado2 {
   background-color: #c9842f;
   color: white;
   text-align: center;
-  padding: 18px;
+  padding: 12px;
 }
 .asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado2 span {
-  font-size: 2.2vw;
+  font-size: 1.8vw;
 }
 .asesoria-cont-tabla_tablas_izquierda_izquierda_encabezado span {
-  font-size: 2.2vw;
+  font-size: 1.8vw;
 }
 .asesoria-cont-tabla_tablas_izquierda_izquierda_puntos {
   display: flex;
@@ -4381,7 +4381,7 @@ h6 {
   font-size: 0.6vw;
 }
 .asesoria-cont-tabla_tablas_izquierda_izquierda_puntos_opcion span {
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 .asesoria-cont-tabla_tablas_derecha {
   display: flex;
@@ -4393,10 +4393,10 @@ h6 {
   background-color: #b96400;
   color: white;
   text-align: center;
-  padding: 18px;
+  padding: 12px;
 }
 .asesoria-cont-tabla_tablas_derecha_encabezado span {
-  font-size: 2.2vw;
+  font-size: 1.8vw;
 }
 .asesoria-cont-tabla_tablas_derecha_puntos {
   display: flex;
@@ -4417,7 +4417,7 @@ h6 {
   font-size: 0.6vw;
 }
 .asesoria-cont-tabla_tablas_derecha_puntos_opcion span {
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 
 @media screen and (max-width: 992px) {
@@ -4641,7 +4641,7 @@ h6 {
   padding: 25px;
 }
 .franquicias .franquicias-cont-superior_imagen img {
-  width: 75%;
+  width: 65%;
 }
 .franquicias .franquicias-cont-superior_info {
   width: 50%;
@@ -4658,7 +4658,7 @@ h6 {
 .franquicias .franquicias-cont-superior_info_titulo span {
   margin-right: 3vw;
   color: white;
-  font-size: 3.6vw;
+  font-size: 3.1vw;
 }
 .franquicias .franquicias-cont-superior_info_texto {
   display: flex;
@@ -4679,12 +4679,12 @@ h6 {
 }
 .franquicias .franquicias-cont-inferior_titulo_uno {
   color: white;
-  font-size: 1.8vw;
+  font-size: 1.6vw;
   margin-bottom: 3px;
 }
 .franquicias .franquicias-cont-inferior_titulo_dos {
   color: white;
-  font-size: 0.7vw;
+  font-size: 0.5vw;
 }
 .franquicias .franquicias-cont-inferior_franquicias {
   display: flex;
@@ -5023,7 +5023,7 @@ h6 {
 }
 .capacitaciones .capacitaciones-cont_info_superior_titulo {
   color: #b96400;
-  font-size: 3.1vw;
+  font-size: 2.8vw;
   margin-bottom: 25px;
 }
 .capacitaciones .capacitaciones-cont_info_superior_texto {
@@ -5328,7 +5328,7 @@ img.hover-shadow {
 .testimonios .testimonios-cont_titulo {
   text-align: center;
   color: #b96400;
-  font-size: 3.1vw;
+  font-size: 2.8vw;
   margin-top: 35px;
   margin-bottom: 30px;
 }

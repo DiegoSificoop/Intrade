@@ -18,7 +18,7 @@
 			margin-top: 100px;
 
 			&_letra{
-				font-size: 3.1vw;
+				font-size: $tamañotitulosprin;//3.1vw;
 			}
 
 			&_sub{
@@ -29,7 +29,7 @@
 
 				&_letra{
 					margin-right: 4vw;
-					font-size: 3.5vw; 
+					font-size: $tamanosubtituloserv;//3.5vw; 
 					font-weight: bold;
 				}
 			}
@@ -71,12 +71,12 @@
 
 					&_cabecera img{
 						margin-bottom: 14px;
-						width: 4vw;
+						width: 3.7vw;
 					}
 
 					&_cabecera span{
 						padding: 5px;
-						font-size: 1.6vw;
+						font-size: 1.4vw;
 						font-weight: bold;
 					}
 
@@ -100,7 +100,7 @@
 
 						&_opcion span{
 							font-family: 'PT Sans Narrow', sans-serif;
-							font-size: 1.8vw;
+							font-size: 1.6vw;
 						}
 					}
 				}

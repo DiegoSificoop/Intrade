@@ -19,12 +19,15 @@ $h5 : 1.5em;
 $h6 : 1em;
 
 // Estilos parrafos
-$p--fz  : 1.3vw;//18px;
+$p--fz  : 1.2vw;//1.3vw;//18px;
 $p--lh  : 1.3em;
 
+//Tamaños titulos quienes
+$tamanotitulosquien: 2.8vw;
+
 //Tamaños titulos
-$tamañotitulosprin: 3.1vw;
-$tamañotitulofran : 3.6vw;
+$tamañotitulosprin: 2.8vw;//3.1vw;
+$tamañotitulofran : 3.1vw;//3.6vw;
 
 //Estilos parrafos responsive
 $tamanoparrafores : 16px;
@@ -35,6 +38,7 @@ $tamanotitulores : 32px;
 //Estilos opciones servicios
 $serviciosopcion : 20px;
 $serviciostitulo : 20px;
+$tamanosubtituloserv: 3.1vw;//
 
 //Estilos seccion asesoria
 $asesoriacontabla: 15px;

@@ -25,7 +25,7 @@
 			}
 
 			&_titulo span{
-				font-size: 3.1vw;
+				font-size: $tamanotitulosquien;
 			}
 
 			&_contenido{
@@ -96,7 +96,7 @@
 				}
 
 				&_titulo span{
-					font-size: 3.1vw;
+					font-size: $tamanotitulosquien;//3.1vw;
 				}
 
 				&_texto{
@@ -142,7 +142,7 @@
 				}
 
 				&_titulo span{
-					font-size: 3.1vw;
+					font-size: $tamanotitulosquien;//3.1vw;
 					margin-bottom: 8px;
 				}
 

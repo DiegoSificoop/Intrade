@@ -18,7 +18,7 @@
 			}
 
 			&_titulo span{
-				font-size: 4vw;
+				font-size: 3.2vw;//4vw;
 				color: $Colorprincipal;
 			}
 
@@ -32,9 +32,9 @@
 		&-tabla{
 			display : flex;
 			flex-direction: column;
-			padding-left: 30px;
-			padding-right: 30px;
-			padding-top: 30px;
+			padding-left: 50px;//30px;
+			padding-right: 50px;//30px;
+			padding-top: 50px;//30px;
 			margin-bottom: 40px;//
 
 			&_tablas{
@@ -56,22 +56,22 @@
 							background-color: $Colorprincipal;
 							color: white;
 							text-align: center;
-							padding: 18px;
+							padding: 12px;
 						}
 
 						&_encabezado2{
 							background-color: $Colorprincipaldif;
 							color: white;
 							text-align: center;
-							padding: 18px;
+							padding: 12px;
 						}
 
 						&_encabezado2 span{
-							font-size: 2.2vw;
+							font-size: 1.8vw;//2.2vw;
 						}
 
 						&_encabezado span{
-							font-size: 2.2vw;
+							font-size: 1.8vw;//2.2vw;
 						}
 
 						&_puntos{
@@ -96,7 +96,7 @@
 							}
 
 							&_opcion span{
-								font-size: 1.3vw;
+								font-size: 1.2vw;
 							}
 						}
 					}
@@ -112,11 +112,11 @@
 						background-color: $Colorprincipal;
 						color: white;
 						text-align: center;
-						padding: 18px;
+						padding: 12px;
 					}
 
 					&_encabezado span{
-						font-size: 2.2vw;
+						font-size: 1.8vw;//2.2vw;
 					}
 
 					&_puntos{
@@ -140,7 +140,7 @@
 						}
 
 						&_opcion span{
-							font-size: 1.3vw;
+							font-size: 1.2vw;
 						}
 					}
 				}
