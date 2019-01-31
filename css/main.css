@@ -3321,12 +3321,6 @@ h6 {
   width: 100%;
   height: 4vh;
   transition: all 0.7s ease;
-  /*&_izquierda a{
-  	margin-right: 10px;
-  	font-size: 1vw;
-  	color: white;
-  	padding: 1vh;
-  }*/
 }
 .menu_superior_izquierda {
   display: flex;
@@ -5706,7 +5700,7 @@ img.hover-shadow {
   justify-content: flex-end;
   align-items: center;
   position: fixed;
-  top: 530px;
+  top: 75vh;
   right: 19px;
 }
 
