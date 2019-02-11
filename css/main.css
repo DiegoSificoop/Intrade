@@ -3503,8 +3503,10 @@ h6 {
 }
 .quienes-cont-donde_estamos_titulo {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  /*flex-direction: row;
+  justify-content: space-around;*/
   color: white;
 }
 .quienes-cont-donde_estamos_titulo span {
@@ -3823,6 +3825,10 @@ h6 {
   margin-top: 70px;
   width: 60%;
 }
+.servicios-cont_contenido_imagen p {
+  color: white;
+  font-size: 1.3vw;
+}
 .servicios-cont_contenido_imagen img {
   width: 90%;
 }
@@ -3919,6 +3925,10 @@ h6 {
   .servicios-cont_contenido_imagen {
     margin-top: 70px;
     width: 60%;
+    padding: 40px;
+  }
+  .servicios-cont_contenido_imagen p {
+    font-size: 16px;
   }
   .servicios-cont_contenido_imagen img {
     width: 90%;
@@ -4366,7 +4376,6 @@ h6 {
   }
 }
 .franquicias {
-  height: 100vh;
   background-image: url("../img/rhino.jpg");
   background-attachment: fixed;
   background-position: center center;
@@ -4392,7 +4401,7 @@ h6 {
   padding: 25px;
 }
 .franquicias .franquicias-cont-superior_imagen img {
-  width: 65%;
+  width: 75%;
 }
 .franquicias .franquicias-cont-superior_info {
   width: 50%;
