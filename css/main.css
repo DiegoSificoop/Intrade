@@ -3540,12 +3540,7 @@ h6 {
   margin-top: 60px;
 }
 .quienes-cont-nuestro_info_titulo_sub {
-  /*display: flex;
-  justify-content: space-between;
-  width: 60%;*/
   color: #b96400;
-}
-.quienes-cont-nuestro_info_titulo_sub {
   font-size: 3.1vw;
 }
 .quienes-cont-nuestro_info_titulo span {
@@ -4425,6 +4420,22 @@ h6 {
   display: flex;
   justify-content: center;
   color: white;
+}
+.franquicias .franquicias-cont-superior_info_botonleer {
+  width: 50%;
+  background-color: darkgray;
+  color: white;
+  padding: 12px 10px;
+  margin: 3px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  margin-top: 20px;
+}
+.franquicias .franquicias-cont-superior_info_botonleer:hover {
+  background-color: white;
+  color: #b96400;
 }
 .franquicias .franquicias-cont-inferior {
   display: flex;
@@ -5634,6 +5645,8 @@ img.hover-shadow {
   color: white;
   padding: 10px;
   margin-top: 30px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 .promocion-cont_normal_descripcion_info p {
   font-size: 1.2vw;
@@ -5703,6 +5716,7 @@ img.hover-shadow {
   text-align: center;
   color: white;
   padding: 10px;
+  margin-left: 60px;
 }
 .promocion-cont_inverso_descripcion_info p {
   font-size: 1.2vw;
